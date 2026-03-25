@@ -1,0 +1,55 @@
+{
+  "baby_reels": [
+    {
+      "actions": [
+        "check manually"
+      ],
+      "add_categories": [],
+      "drop_categories": [],
+      "pricing": "no change"
+    },
+    {
+      "actions": [
+        "check manually"
+      ],
+      "add_categories": [],
+      "drop_categories": [],
+      "pricing": "no change"
+    },
+    {
+      "actions": [
+        "check manually"
+      ],
+      "add_categories": [],
+      "drop_categories": [],
+      "pricing": "no change"
+    }
+  ],
+  "costume_reels": [
+    {
+      "actions": [
+        "check manually"
+      ],
+      "add_categories": [],
+      "drop_categories": [],
+      "pricing": "no change"
+    },
+    {
+      "actions": [
+        "check manually"
+      ],
+      "add_categories": [],
+      "drop_categories": [],
+      "pricing": "no change"
+    },
+    {
+      "actions": [
+        "check manually"
+      ],
+      "add_categories": [],
+      "drop_categories": [],
+      "pricing": "no change"
+    }
+  ],
+  "created": "2026-03-25T00:06:55.102Z"
+}
