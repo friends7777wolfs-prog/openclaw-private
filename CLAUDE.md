@@ -103,3 +103,40 @@ cd ~/OpenClawMaster/discord-bridge
 
 \`\`\`
 
+
+## מצב נוכחי — בעיות פתוחות
+- dotenv טוען 0 vars ב-trader.js / macd_monitor.js / risk_manager.js (path בעיה)
+- Currency=USD לא מומר נכון — צריך fallback לפי מחיר
+- MetaAPI מתנתק לפעמים — אין retry logic
+- self-improve: bot conflict (409) עם tg-bot על אותו token
+- intelligence: לא מקבל נתוני win/loss מה-DB בזמן אמת
+
+## סגנון תשובות מועדף
+- תמיד 3 בלוקים בכל פעם
+- כל בלוק מסתיים ב: echo "✅ בלוק X הצליח"
+- קוד מלא — לא קטעים
+- bash heredoc לכתיבת קבצים (cat > file << 'EOF')
+- אחרי כל בלוק — הסבר קצר מה השתנה
+
+## היסטוריית שיפורים שנעשו
+- הוחלף discord.js-selfbot עם grammy + dotenv fixes
+- נוסף asset_detector.js לזיהוי נכסים
+- נוסף MACD monitor לצמצום פוזיציות
+- נוסף risk_manager עם משקולות דינמיות
+- נוסף intelligence engine עם Claude Sonnet
+- נוסף self-improve engine עם אישורים בטלגרם
+- הוחלף screen ב-PM2
+
+## מבנה DB
+- signal-tracker/signals.db — כל סיגנל + תוצאות
+- signal-tracker/signals.db → channel_stats — win rate + weight
+- intelligence/intelligence.db — קונצנזוס + AI signals
+- self-improve/improvements.db — בעיות + תיקונים
+
+## חשוב — סגנון קידוד
+- Node.js 20 + CommonJS (require, לא import)
+- PM2 local: ./node_modules/.bin/pm2
+- Python 3.11 עם telethon
+- better-sqlite3 (לא sqlite3)
+- grammy (לא telegraf/node-telegram-bot-api)
+- dotenv path תמיד: '/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env'
