@@ -1,0 +1,3208 @@
+{
+  "date": "2026-03-24",
+  "products": [
+    {
+      "id": 8660031733959,
+      "title": "Baby Bottle Sterilizer UV",
+      "body_html": "UV LED 3 minute sterilize dry storage",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:30+02:00",
+      "handle": "baby-bottle-sterilizer-uv",
+      "updated_at": "2026-03-25T00:54:38+02:00",
+      "published_at": "2026-03-25T00:54:30+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660031733959",
+      "variants": [
+        {
+          "id": 46336597229767,
+          "product_id": 8660031733959,
+          "title": "Default Title",
+          "price": "154.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "193.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:30+02:00",
+          "updated_at": "2026-03-25T00:54:30+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457475227847,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336597229767",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965494366407,
+          "product_id": 8660031733959,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660019380423,
+      "title": "Baby Bottle Warmer Fast",
+      "body_html": "fits all bottles 360 rotation auto shutoff",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:25:44+02:00",
+      "handle": "baby-bottle-warmer-fast",
+      "updated_at": "2026-03-25T00:39:56+02:00",
+      "published_at": "2026-03-25T00:25:44+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019380423",
+      "variants": [
+        {
+          "id": 46336535855303,
+          "product_id": 8660019380423,
+          "title": "Default Title",
+          "price": "90.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "112.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:25:44+02:00",
+          "updated_at": "2026-03-25T00:25:45+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457413624007,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336535855303",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965478867143,
+          "product_id": 8660019380423,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925444157639,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019380423,
+          "created_at": "2026-03-25T00:39:56+02:00",
+          "updated_at": "2026-03-25T00:39:56+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934233129159",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4.jpg?v=1774391996",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925444157639,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019380423,
+        "created_at": "2026-03-25T00:39:56+02:00",
+        "updated_at": "2026-03-25T00:39:56+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934233129159",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4.jpg?v=1774391996",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660030587079,
+      "title": "Baby Einstein Activity Jumper",
+      "body_html": "lights sounds 360 spin activity station",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:00+02:00",
+      "handle": "baby-einstein-activity-jumper",
+      "updated_at": "2026-03-25T00:54:10+02:00",
+      "published_at": "2026-03-25T00:54:00+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660030587079",
+      "variants": [
+        {
+          "id": 46336595198151,
+          "product_id": 8660030587079,
+          "title": "Default Title",
+          "price": "210.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "263.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:00+02:00",
+          "updated_at": "2026-03-25T00:54:01+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457473196231,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336595198151",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965493186759,
+          "product_id": 8660030587079,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660020887751,
+      "title": "Baby Food Pouches Reusable",
+      "body_html": "BPA free squeeze pack 6 pack washable",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:30:11+02:00",
+      "handle": "baby-food-pouches-reusable",
+      "updated_at": "2026-03-25T00:39:58+02:00",
+      "published_at": "2026-03-25T00:30:11+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660020887751",
+      "variants": [
+        {
+          "id": 46336544964807,
+          "product_id": 8660020887751,
+          "title": "Default Title",
+          "price": "39.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "49.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:30:11+02:00",
+          "updated_at": "2026-03-25T00:30:12+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457422962887,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336544964807",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480800455,
+          "product_id": 8660020887751,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925444288711,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660020887751,
+          "created_at": "2026-03-25T00:39:58+02:00",
+          "updated_at": "2026-03-25T00:39:58+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934233292999",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_4de0f3da-30b0-49b5-ad65-7a52bd29228c.jpg?v=1774391998",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925444288711,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660020887751,
+        "created_at": "2026-03-25T00:39:58+02:00",
+        "updated_at": "2026-03-25T00:39:58+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934233292999",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_4de0f3da-30b0-49b5-ad65-7a52bd29228c.jpg?v=1774391998",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660032356551,
+      "title": "Baby Food Scale Digital",
+      "body_html": "accurate gram oz kitchen nutrition tracking",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:50+02:00",
+      "handle": "baby-food-scale-digital",
+      "updated_at": "2026-03-25T00:54:57+02:00",
+      "published_at": "2026-03-25T00:54:50+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660032356551",
+      "variants": [
+        {
+          "id": 46336598081735,
+          "product_id": 8660032356551,
+          "title": "Default Title",
+          "price": "42.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "53.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:50+02:00",
+          "updated_at": "2026-03-25T00:54:51+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457476079815,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336598081735",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965495054535,
+          "product_id": 8660032356551,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660021510343,
+      "title": "Baby Gate Safety Pressure Mount",
+      "body_html": "easy install stairs doorway adjustable",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:31:16+02:00",
+      "handle": "baby-gate-safety-pressure-mount",
+      "updated_at": "2026-03-25T00:39:59+02:00",
+      "published_at": "2026-03-25T00:31:16+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021510343",
+      "variants": [
+        {
+          "id": 46336548405447,
+          "product_id": 8660021510343,
+          "title": "Default Title",
+          "price": "134.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "168.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:31:16+02:00",
+          "updated_at": "2026-03-25T00:31:16+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457426403527,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336548405447",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965481455815,
+          "product_id": 8660021510343,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925444714695,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021510343,
+          "created_at": "2026-03-25T00:39:59+02:00",
+          "updated_at": "2026-03-25T00:39:59+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934233686215",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_051ecc01-4494-4ea9-bef6-7e1c3f571c6f.jpg?v=1774391999",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925444714695,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021510343,
+        "created_at": "2026-03-25T00:39:59+02:00",
+        "updated_at": "2026-03-25T00:39:59+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934233686215",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_051ecc01-4494-4ea9-bef6-7e1c3f571c6f.jpg?v=1774391999",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660022231239,
+      "title": "Baby High Chair Foldable Portable",
+      "body_html": "adjustable tray safety harness compact fold",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:31:59+02:00",
+      "handle": "baby-high-chair-foldable-portable",
+      "updated_at": "2026-03-25T00:40:01+02:00",
+      "published_at": "2026-03-25T00:31:59+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660022231239",
+      "variants": [
+        {
+          "id": 46336551911623,
+          "product_id": 8660022231239,
+          "title": "Default Title",
+          "price": "182.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "228.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:31:59+02:00",
+          "updated_at": "2026-03-25T00:31:59+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457429909703,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336551911623",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965482242247,
+          "product_id": 8660022231239,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925445140679,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660022231239,
+          "created_at": "2026-03-25T00:40:01+02:00",
+          "updated_at": "2026-03-25T00:40:01+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934234112199",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_70fe5625-9338-40c1-9b47-cfa1d013042c.jpg?v=1774392001",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925445140679,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660022231239,
+        "created_at": "2026-03-25T00:40:01+02:00",
+        "updated_at": "2026-03-25T00:40:01+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934234112199",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_70fe5625-9338-40c1-9b47-cfa1d013042c.jpg?v=1774392001",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660021182663,
+      "title": "Baby Humidifier Cool Mist",
+      "body_html": "whisper quiet 360 nozzle auto shutoff",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:30:54+02:00",
+      "handle": "baby-humidifier-cool-mist",
+      "updated_at": "2026-03-25T00:40:03+02:00",
+      "published_at": "2026-03-25T00:30:54+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021182663",
+      "variants": [
+        {
+          "id": 46336546930887,
+          "product_id": 8660021182663,
+          "title": "Default Title",
+          "price": "106.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "133.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:30:54+02:00",
+          "updated_at": "2026-03-25T00:30:54+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457424928967,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336546930887",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965481128135,
+          "product_id": 8660021182663,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925445304519,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021182663,
+          "created_at": "2026-03-25T00:40:03+02:00",
+          "updated_at": "2026-03-25T00:40:03+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934234276039",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_6f33008d-f70a-4e88-94c5-6e172478a2a5.jpg?v=1774392003",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925445304519,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021182663,
+        "created_at": "2026-03-25T00:40:03+02:00",
+        "updated_at": "2026-03-25T00:40:03+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934234276039",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_6f33008d-f70a-4e88-94c5-6e172478a2a5.jpg?v=1774392003",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660033110215,
+      "title": "Baby Jumperoo Doorway Bouncer",
+      "body_html": "no hardware needed adjustable spin bounce",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:55:10+02:00",
+      "handle": "baby-jumperoo-doorway-bouncer",
+      "updated_at": "2026-03-25T00:55:17+02:00",
+      "published_at": "2026-03-25T00:55:10+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660033110215",
+      "variants": [
+        {
+          "id": 46336598933703,
+          "product_id": 8660033110215,
+          "title": "Default Title",
+          "price": "126.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "158.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:55:10+02:00",
+          "updated_at": "2026-03-25T00:55:11+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457476931783,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336598933703",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965495808199,
+          "product_id": 8660033110215,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660015153351,
+      "title": "Baby Monitor WiFi HD",
+      "body_html": "night vision two-way audio temperature sensor",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:15:04+02:00",
+      "handle": "baby-monitor-wifi-hd",
+      "updated_at": "2026-03-25T00:40:05+02:00",
+      "published_at": "2026-03-25T00:15:04+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660015153351",
+      "variants": [
+        {
+          "id": 46336466944199,
+          "product_id": 8660015153351,
+          "title": "Default Title",
+          "price": "336.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "420.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:15:04+02:00",
+          "updated_at": "2026-03-25T00:15:04+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457344942279,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336466944199",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965473853639,
+          "product_id": 8660015153351,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925445894343,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660015153351,
+          "created_at": "2026-03-25T00:40:05+02:00",
+          "updated_at": "2026-03-25T00:40:05+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934234898631",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_553250dc-7140-4f9e-aad3-7b755b3238de.jpg?v=1774392005",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925445894343,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660015153351,
+        "created_at": "2026-03-25T00:40:05+02:00",
+        "updated_at": "2026-03-25T00:40:05+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934234898631",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_553250dc-7140-4f9e-aad3-7b755b3238de.jpg?v=1774392005",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660021903559,
+      "title": "Baby Nail File Electric Safe",
+      "body_html": "gentle automatic newborn safe quiet",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:31:37+02:00",
+      "handle": "baby-nail-file-electric-safe",
+      "updated_at": "2026-03-25T00:40:07+02:00",
+      "published_at": "2026-03-25T00:31:37+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021903559",
+      "variants": [
+        {
+          "id": 46336550109383,
+          "product_id": 8660021903559,
+          "title": "Default Title",
+          "price": "34.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "42.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:31:37+02:00",
+          "updated_at": "2026-03-25T00:31:37+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457428107463,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336550109383",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965481914567,
+          "product_id": 8660021903559,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925446254791,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021903559,
+          "created_at": "2026-03-25T00:40:07+02:00",
+          "updated_at": "2026-03-25T00:40:07+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934235259079",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_aa90231b-87fc-4bf2-a4bf-c6203f4b7203.jpg?v=1774392007",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925446254791,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021903559,
+        "created_at": "2026-03-25T00:40:07+02:00",
+        "updated_at": "2026-03-25T00:40:07+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934235259079",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_aa90231b-87fc-4bf2-a4bf-c6203f4b7203.jpg?v=1774392007",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019609799,
+      "title": "Baby Nasal Aspirator Electric",
+      "body_html": "safe gentle suction music soothing",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:26:08+02:00",
+      "handle": "baby-nasal-aspirator-electric",
+      "updated_at": "2026-03-25T00:40:08+02:00",
+      "published_at": "2026-03-25T00:26:08+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019609799",
+      "variants": [
+        {
+          "id": 46336539164871,
+          "product_id": 8660019609799,
+          "title": "Default Title",
+          "price": "62.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "77.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:26:09+02:00",
+          "updated_at": "2026-03-25T00:26:09+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457417162951,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336539164871",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479129287,
+          "product_id": 8660019609799,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925446484167,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019609799,
+          "created_at": "2026-03-25T00:40:08+02:00",
+          "updated_at": "2026-03-25T00:40:08+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934235488455",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_88f2ccbf-819f-4559-b501-c3840e552cf8.jpg?v=1774392008",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925446484167,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019609799,
+        "created_at": "2026-03-25T00:40:08+02:00",
+        "updated_at": "2026-03-25T00:40:08+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934235488455",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_88f2ccbf-819f-4559-b501-c3840e552cf8.jpg?v=1774392008",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019708103,
+      "title": "Baby Play Mat Foam Puzzle",
+      "body_html": "non toxic thick interlocking tiles colorful",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:26:28+02:00",
+      "handle": "baby-play-mat-foam-puzzle",
+      "updated_at": "2026-03-25T00:40:10+02:00",
+      "published_at": "2026-03-25T00:26:28+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019708103",
+      "variants": [
+        {
+          "id": 46336539361479,
+          "product_id": 8660019708103,
+          "title": "Default Title",
+          "price": "126.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "158.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:26:29+02:00",
+          "updated_at": "2026-03-25T00:26:29+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457417359559,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336539361479",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479227591,
+          "product_id": 8660019708103,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925447008455,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019708103,
+          "created_at": "2026-03-25T00:40:10+02:00",
+          "updated_at": "2026-03-25T00:40:10+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934236012743",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_6f3a8bc1-534c-4055-b695-277d02c49c2d.jpg?v=1774392010",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925447008455,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019708103,
+        "created_at": "2026-03-25T00:40:10+02:00",
+        "updated_at": "2026-03-25T00:40:10+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934236012743",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_6f3a8bc1-534c-4055-b695-277d02c49c2d.jpg?v=1774392010",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660033929415,
+      "title": "Baby Proofing Corner Guards",
+      "body_html": "soft foam adhesive clear 20 pack furniture",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:55:31+02:00",
+      "handle": "baby-proofing-corner-guards",
+      "updated_at": "2026-03-25T00:55:40+02:00",
+      "published_at": "2026-03-25T00:55:31+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660033929415",
+      "variants": [
+        {
+          "id": 46336599851207,
+          "product_id": 8660033929415,
+          "title": "Default Title",
+          "price": "22.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "28.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:55:31+02:00",
+          "updated_at": "2026-03-25T00:55:32+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457477849287,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336599851207",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965496627399,
+          "product_id": 8660033929415,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660019183815,
+      "title": "Baby Stroller Lightweight Foldable",
+      "body_html": "one click fold sunshade travel system",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:25:25+02:00",
+      "handle": "baby-stroller-lightweight-foldable",
+      "updated_at": "2026-03-25T00:40:12+02:00",
+      "published_at": "2026-03-25T00:25:25+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019183815",
+      "variants": [
+        {
+          "id": 46336535331015,
+          "product_id": 8660019183815,
+          "title": "Default Title",
+          "price": "504.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "630.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:25:25+02:00",
+          "updated_at": "2026-03-25T00:25:26+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457413329095,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336535331015",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965478670535,
+          "product_id": 8660019183815,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925447336135,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019183815,
+          "created_at": "2026-03-25T00:40:12+02:00",
+          "updated_at": "2026-03-25T00:40:12+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934236242119",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_11a0f976-2034-4464-93f1-9b08a51af6b4.jpg?v=1774392012",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925447336135,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019183815,
+        "created_at": "2026-03-25T00:40:12+02:00",
+        "updated_at": "2026-03-25T00:40:12+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934236242119",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_11a0f976-2034-4464-93f1-9b08a51af6b4.jpg?v=1774392012",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019904711,
+      "title": "Baby Swing Electric Auto",
+      "body_html": "Bluetooth music 5 speeds timer portable",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:26:51+02:00",
+      "handle": "baby-swing-electric-auto",
+      "updated_at": "2026-03-25T00:40:14+02:00",
+      "published_at": "2026-03-25T00:26:51+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019904711",
+      "variants": [
+        {
+          "id": 46336541524167,
+          "product_id": 8660019904711,
+          "title": "Default Title",
+          "price": "266.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "333.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:26:51+02:00",
+          "updated_at": "2026-03-25T00:26:52+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457419522247,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336541524167",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479522503,
+          "product_id": 8660019904711,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925447368903,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019904711,
+          "created_at": "2026-03-25T00:40:14+02:00",
+          "updated_at": "2026-03-25T00:40:14+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934236274887",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_07ee8471-6ae4-489e-b8f6-a132d8caee67.jpg?v=1774392014",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925447368903,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019904711,
+        "created_at": "2026-03-25T00:40:14+02:00",
+        "updated_at": "2026-03-25T00:40:14+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934236274887",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_07ee8471-6ae4-489e-b8f6-a132d8caee67.jpg?v=1774392014",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660021018823,
+      "title": "Baby Teething Toys Silicone Set",
+      "body_html": "BPA free cooling soothing 4 piece set",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:30:31+02:00",
+      "handle": "baby-teething-toys-silicone-set",
+      "updated_at": "2026-03-25T00:40:15+02:00",
+      "published_at": "2026-03-25T00:30:31+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021018823",
+      "variants": [
+        {
+          "id": 46336545849543,
+          "product_id": 8660021018823,
+          "title": "Default Title",
+          "price": "28.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "35.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:30:31+02:00",
+          "updated_at": "2026-03-25T00:30:31+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457423847623,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336545849543",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480931527,
+          "product_id": 8660021018823,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925447925959,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021018823,
+          "created_at": "2026-03-25T00:40:15+02:00",
+          "updated_at": "2026-03-25T00:40:15+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934236831943",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_42aec09d-9651-4a32-9503-1b256eeea74c.jpg?v=1774392015",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925447925959,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021018823,
+        "created_at": "2026-03-25T00:40:15+02:00",
+        "updated_at": "2026-03-25T00:40:15+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934236831943",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_42aec09d-9651-4a32-9503-1b256eeea74c.jpg?v=1774392015",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019675335,
+      "title": "Breastfeeding Cover Nursing Scarf",
+      "body_html": "breathable cotton infinity multi use",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:26:18+02:00",
+      "handle": "breastfeeding-cover-nursing-scarf",
+      "updated_at": "2026-03-25T00:40:17+02:00",
+      "published_at": "2026-03-25T00:26:18+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019675335",
+      "variants": [
+        {
+          "id": 46336539328711,
+          "product_id": 8660019675335,
+          "title": "Default Title",
+          "price": "50.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "63.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:26:18+02:00",
+          "updated_at": "2026-03-25T00:26:19+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457417326791,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336539328711",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479194823,
+          "product_id": 8660019675335,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925447958727,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019675335,
+          "created_at": "2026-03-25T00:40:17+02:00",
+          "updated_at": "2026-03-25T00:40:17+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934236864711",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b.jpg?v=1774392017",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925447958727,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019675335,
+        "created_at": "2026-03-25T00:40:17+02:00",
+        "updated_at": "2026-03-25T00:40:17+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934236864711",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b.jpg?v=1774392017",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660022034631,
+      "title": "Contraction Timer App Labor Bag",
+      "body_html": "hospital bag checklist labor essentials kit",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:31:47+02:00",
+      "handle": "contraction-timer-app-labor-bag",
+      "updated_at": "2026-03-25T00:40:19+02:00",
+      "published_at": "2026-03-25T00:31:47+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660022034631",
+      "variants": [
+        {
+          "id": 46336550961351,
+          "product_id": 8660022034631,
+          "title": "Default Title",
+          "price": "70.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "88.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:31:47+02:00",
+          "updated_at": "2026-03-25T00:31:48+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457428959431,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336550961351",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965482045639,
+          "product_id": 8660022034631,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925448155335,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660022034631,
+          "created_at": "2026-03-25T00:40:19+02:00",
+          "updated_at": "2026-03-25T00:40:19+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934237061319",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_28cdfb9a-7b90-4929-a8fb-7dcbdad7e3b2.jpg?v=1774392019",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925448155335,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660022034631,
+        "created_at": "2026-03-25T00:40:19+02:00",
+        "updated_at": "2026-03-25T00:40:19+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934237061319",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_28cdfb9a-7b90-4929-a8fb-7dcbdad7e3b2.jpg?v=1774392019",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660015251655,
+      "title": "Electric Breast Pump Portable",
+      "body_html": "quiet usb rechargeable double pump",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:15:22+02:00",
+      "handle": "electric-breast-pump-portable",
+      "updated_at": "2026-03-25T00:40:20+02:00",
+      "published_at": "2026-03-25T00:15:22+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660015251655",
+      "variants": [
+        {
+          "id": 46336467173575,
+          "product_id": 8660015251655,
+          "title": "Default Title",
+          "price": "249.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "312.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:15:22+02:00",
+          "updated_at": "2026-03-25T00:15:23+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457345171655,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336467173575",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965473951943,
+          "product_id": 8660015251655,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925448188103,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660015251655,
+          "created_at": "2026-03-25T00:40:20+02:00",
+          "updated_at": "2026-03-25T00:40:20+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934237257927",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_d81144ee-d1b6-41aa-8c58-9c93b5c20dc9.jpg?v=1774392020",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925448188103,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660015251655,
+        "created_at": "2026-03-25T00:40:20+02:00",
+        "updated_at": "2026-03-25T00:40:20+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934237257927",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_d81144ee-d1b6-41aa-8c58-9c93b5c20dc9.jpg?v=1774392020",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660031373511,
+      "title": "Maternity Compression Socks",
+      "body_html": "graduated compression swelling varicose veins",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:20+02:00",
+      "handle": "maternity-compression-socks",
+      "updated_at": "2026-03-25T00:54:27+02:00",
+      "published_at": "2026-03-25T00:54:20+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660031373511",
+      "variants": [
+        {
+          "id": 46336596869319,
+          "product_id": 8660031373511,
+          "title": "Default Title",
+          "price": "34.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "42.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:21+02:00",
+          "updated_at": "2026-03-25T00:54:21+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457474867399,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336596869319",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965494005959,
+          "product_id": 8660031373511,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660019249351,
+      "title": "Maternity Leggings High Waist",
+      "body_html": "over bump support comfortable stretchy",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:25:34+02:00",
+      "handle": "maternity-leggings-high-waist",
+      "updated_at": "2026-03-25T00:40:22+02:00",
+      "published_at": "2026-03-25T00:25:34+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019249351",
+      "variants": [
+        {
+          "id": 46336535494855,
+          "product_id": 8660019249351,
+          "title": "Default Title",
+          "price": "70.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "88.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:25:34+02:00",
+          "updated_at": "2026-03-25T00:25:35+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457413492935,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336535494855",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965478736071,
+          "product_id": 8660019249351,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925448450247,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019249351,
+          "created_at": "2026-03-25T00:40:22+02:00",
+          "updated_at": "2026-03-25T00:40:22+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934237454535",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_f12101ba-40ed-4698-af55-b6b1264c1905.jpg?v=1774392022",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925448450247,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019249351,
+        "created_at": "2026-03-25T00:40:22+02:00",
+        "updated_at": "2026-03-25T00:40:22+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934237454535",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_f12101ba-40ed-4698-af55-b6b1264c1905.jpg?v=1774392022",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660020592839,
+      "title": "Menstrual Cup Reusable Silicone",
+      "body_html": "medical grade 12 hour protection eco friendly",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:29:36+02:00",
+      "handle": "menstrual-cup-reusable-silicone",
+      "updated_at": "2026-03-25T00:40:24+02:00",
+      "published_at": "2026-03-25T00:29:36+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, womens-health",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660020592839",
+      "variants": [
+        {
+          "id": 46336544407751,
+          "product_id": 8660020592839,
+          "title": "Default Title",
+          "price": "22.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "28.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:29:36+02:00",
+          "updated_at": "2026-03-25T00:29:37+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457422405831,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336544407751",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480407239,
+          "product_id": 8660020592839,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925449302215,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660020592839,
+          "created_at": "2026-03-25T00:40:24+02:00",
+          "updated_at": "2026-03-25T00:40:24+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934238339271",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_00a12261-1490-4003-b001-d001082e447f.jpg?v=1774392024",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925449302215,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660020592839,
+        "created_at": "2026-03-25T00:40:24+02:00",
+        "updated_at": "2026-03-25T00:40:24+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934238339271",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_00a12261-1490-4003-b001-d001082e447f.jpg?v=1774392024",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019970247,
+      "title": "Nipple Cream Lanolin Natural",
+      "body_html": "organic safe for baby breastfeeding relief",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:27:02+02:00",
+      "handle": "nipple-cream-lanolin-natural",
+      "updated_at": "2026-03-25T00:40:26+02:00",
+      "published_at": "2026-03-25T00:27:02+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019970247",
+      "variants": [
+        {
+          "id": 46336541688007,
+          "product_id": 8660019970247,
+          "title": "Default Title",
+          "price": "34.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "42.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:27:02+02:00",
+          "updated_at": "2026-03-25T00:27:02+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457419686087,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336541688007",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479588039,
+          "product_id": 8660019970247,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925449531591,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019970247,
+          "created_at": "2026-03-25T00:40:26+02:00",
+          "updated_at": "2026-03-25T00:40:26+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934238535879",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_7aec04bc-0bef-4049-aa20-e1e191fc3a3a.jpg?v=1774392026",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925449531591,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019970247,
+        "created_at": "2026-03-25T00:40:26+02:00",
+        "updated_at": "2026-03-25T00:40:26+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934238535879",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_7aec04bc-0bef-4049-aa20-e1e191fc3a3a.jpg?v=1774392026",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660021346503,
+      "title": "Nursing Bra Wireless Hands Free",
+      "body_html": "pumping bra all in one soft supportive",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:31:06+02:00",
+      "handle": "nursing-bra-wireless-hands-free",
+      "updated_at": "2026-03-25T00:40:28+02:00",
+      "published_at": "2026-03-25T00:31:06+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021346503",
+      "variants": [
+        {
+          "id": 46336547619015,
+          "product_id": 8660021346503,
+          "title": "Default Title",
+          "price": "62.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "77.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:31:06+02:00",
+          "updated_at": "2026-03-25T00:31:06+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457425617095,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336547619015",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965481291975,
+          "product_id": 8660021346503,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925450055879,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021346503,
+          "created_at": "2026-03-25T00:40:27+02:00",
+          "updated_at": "2026-03-25T00:40:27+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934238732487",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_3a85f785-785a-4f84-a84c-58b2d52025be.jpg?v=1774392027",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925450055879,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021346503,
+        "created_at": "2026-03-25T00:40:27+02:00",
+        "updated_at": "2026-03-25T00:40:27+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934238732487",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_3a85f785-785a-4f84-a84c-58b2d52025be.jpg?v=1774392027",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660032651463,
+      "title": "Nursing Pads Reusable Organic",
+      "body_html": "bamboo washable 10 pack leak proof",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:59+02:00",
+      "handle": "nursing-pads-reusable-organic",
+      "updated_at": "2026-03-25T00:55:08+02:00",
+      "published_at": "2026-03-25T00:54:59+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660032651463",
+      "variants": [
+        {
+          "id": 46336598474951,
+          "product_id": 8660032651463,
+          "title": "Default Title",
+          "price": "39.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "49.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:59+02:00",
+          "updated_at": "2026-03-25T00:54:59+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457476473031,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336598474951",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965495349447,
+          "product_id": 8660032651463,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660020658375,
+      "title": "Ovulation Test Strips 50 Pack",
+      "body_html": "LH surge detection accurate fast result",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:29:48+02:00",
+      "handle": "ovulation-test-strips-50-pack",
+      "updated_at": "2026-03-25T00:40:29+02:00",
+      "published_at": "2026-03-25T00:29:48+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, fertility",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660020658375",
+      "variants": [
+        {
+          "id": 46336544571591,
+          "product_id": 8660020658375,
+          "title": "Default Title",
+          "price": "34.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "42.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:29:48+02:00",
+          "updated_at": "2026-03-25T00:29:48+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457422569671,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336544571591",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480472775,
+          "product_id": 8660020658375,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925450252487,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660020658375,
+          "created_at": "2026-03-25T00:40:29+02:00",
+          "updated_at": "2026-03-25T00:40:29+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934239224007",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_f156d73c-b423-44e6-8e66-deef320eac16.jpg?v=1774392029",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925450252487,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660020658375,
+        "created_at": "2026-03-25T00:40:29+02:00",
+        "updated_at": "2026-03-25T00:40:29+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934239224007",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_f156d73c-b423-44e6-8e66-deef320eac16.jpg?v=1774392029",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660020560071,
+      "title": "Pelvic Floor Trainer Kegel",
+      "body_html": "app controlled beginner friendly postpartum",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:29:28+02:00",
+      "handle": "pelvic-floor-trainer-kegel",
+      "updated_at": "2026-03-25T00:40:31+02:00",
+      "published_at": "2026-03-25T00:29:28+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, womens-health",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660020560071",
+      "variants": [
+        {
+          "id": 46336544342215,
+          "product_id": 8660020560071,
+          "title": "Default Title",
+          "price": "98.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "123.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:29:28+02:00",
+          "updated_at": "2026-03-25T00:29:28+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457422340295,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336544342215",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480374471,
+          "product_id": 8660020560071,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925450776775,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660020560071,
+          "created_at": "2026-03-25T00:40:31+02:00",
+          "updated_at": "2026-03-25T00:40:31+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934239748295",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_c5b13773-bcde-4571-a4b6-d34931913e90.jpg?v=1774392031",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925450776775,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660020560071,
+        "created_at": "2026-03-25T00:40:31+02:00",
+        "updated_at": "2026-03-25T00:40:31+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934239748295",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_c5b13773-bcde-4571-a4b6-d34931913e90.jpg?v=1774392031",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019511495,
+      "title": "Postpartum Belly Wrap Band",
+      "body_html": "abdominal binder after birth recovery",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:25:56+02:00",
+      "handle": "postpartum-belly-wrap-band",
+      "updated_at": "2026-03-25T00:40:33+02:00",
+      "published_at": "2026-03-25T00:25:56+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019511495",
+      "variants": [
+        {
+          "id": 46336536084679,
+          "product_id": 8660019511495,
+          "title": "Default Title",
+          "price": "78.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "98.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:25:56+02:00",
+          "updated_at": "2026-03-25T00:25:57+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457414082759,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336536084679",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479030983,
+          "product_id": 8660019511495,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925453562055,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019511495,
+          "created_at": "2026-03-25T00:40:33+02:00",
+          "updated_at": "2026-03-25T00:40:33+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934242566343",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_e51e23bf-d085-4849-8cfc-803f4fb029bb.jpg?v=1774392033",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925453562055,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019511495,
+        "created_at": "2026-03-25T00:40:33+02:00",
+        "updated_at": "2026-03-25T00:40:33+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934242566343",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_e51e23bf-d085-4849-8cfc-803f4fb029bb.jpg?v=1774392033",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660033503431,
+      "title": "Postpartum Mood Support Tea",
+      "body_html": "chamomile lemon balm ashwagandha stress relief",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:55:21+02:00",
+      "handle": "postpartum-mood-support-tea",
+      "updated_at": "2026-03-25T00:55:29+02:00",
+      "published_at": "2026-03-25T00:55:21+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660033503431",
+      "variants": [
+        {
+          "id": 46336599425223,
+          "product_id": 8660033503431,
+          "title": "Default Title",
+          "price": "45.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "56.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:55:21+02:00",
+          "updated_at": "2026-03-25T00:55:21+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457477423303,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336599425223",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965496201415,
+          "product_id": 8660033503431,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660021084359,
+      "title": "Postpartum Perineal Bottle",
+      "body_html": "upside down peri wash bottle after birth",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:30:41+02:00",
+      "handle": "postpartum-perineal-bottle",
+      "updated_at": "2026-03-25T00:40:34+02:00",
+      "published_at": "2026-03-25T00:30:41+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021084359",
+      "variants": [
+        {
+          "id": 46336545915079,
+          "product_id": 8660021084359,
+          "title": "Default Title",
+          "price": "22.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "28.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:30:41+02:00",
+          "updated_at": "2026-03-25T00:30:42+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457423913159,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336545915079",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480997063,
+          "product_id": 8660021084359,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925453758663,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021084359,
+          "created_at": "2026-03-25T00:40:34+02:00",
+          "updated_at": "2026-03-25T00:40:34+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934242762951",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_723d06d9-3153-4e81-b8bb-ea77cc76cc16.jpg?v=1774392034",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925453758663,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021084359,
+        "created_at": "2026-03-25T00:40:34+02:00",
+        "updated_at": "2026-03-25T00:40:34+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934242762951",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_723d06d9-3153-4e81-b8bb-ea77cc76cc16.jpg?v=1774392034",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660019806407,
+      "title": "Pregnancy Pillow Full Body",
+      "body_html": "U shape back support side sleeper washable",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:26:39+02:00",
+      "handle": "pregnancy-pillow-full-body",
+      "updated_at": "2026-03-25T00:40:36+02:00",
+      "published_at": "2026-03-25T00:26:39+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660019806407",
+      "variants": [
+        {
+          "id": 46336539656391,
+          "product_id": 8660019806407,
+          "title": "Default Title",
+          "price": "210.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "263.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:26:40+02:00",
+          "updated_at": "2026-03-25T00:26:40+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457417654471,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336539656391",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965479358663,
+          "product_id": 8660019806407,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925454119111,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660019806407,
+          "created_at": "2026-03-25T00:40:36+02:00",
+          "updated_at": "2026-03-25T00:40:36+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934243188935",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_f34e519b-ccdb-49fc-974f-859e783287f5.jpg?v=1774392036",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925454119111,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660019806407,
+        "created_at": "2026-03-25T00:40:36+02:00",
+        "updated_at": "2026-03-25T00:40:36+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934243188935",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_f34e519b-ccdb-49fc-974f-859e783287f5.jpg?v=1774392036",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660015186119,
+      "title": "Pregnancy Support Belt",
+      "body_html": "lumbar support adjustable breathable",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:15:13+02:00",
+      "handle": "pregnancy-support-belt",
+      "updated_at": "2026-03-25T00:40:38+02:00",
+      "published_at": "2026-03-25T00:15:13+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660015186119",
+      "variants": [
+        {
+          "id": 46336466976967,
+          "product_id": 8660015186119,
+          "title": "Default Title",
+          "price": "126.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "158.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:15:13+02:00",
+          "updated_at": "2026-03-25T00:15:13+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457344975047,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336466976967",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965473886407,
+          "product_id": 8660015186119,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925454315719,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660015186119,
+          "created_at": "2026-03-25T00:40:38+02:00",
+          "updated_at": "2026-03-25T00:40:38+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934243221703",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_51fddf24-1b37-47b2-86cb-1b4475c42c3b.jpg?v=1774392038",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925454315719,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660015186119,
+        "created_at": "2026-03-25T00:40:38+02:00",
+        "updated_at": "2026-03-25T00:40:38+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934243221703",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_51fddf24-1b37-47b2-86cb-1b4475c42c3b.jpg?v=1774392038",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660032094407,
+      "title": "Pregnancy Wedge Pillow",
+      "body_html": "compact triangle back belly support car seat",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:39+02:00",
+      "handle": "pregnancy-wedge-pillow",
+      "updated_at": "2026-03-25T00:54:47+02:00",
+      "published_at": "2026-03-25T00:54:39+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660032094407",
+      "variants": [
+        {
+          "id": 46336597819591,
+          "product_id": 8660032094407,
+          "title": "Default Title",
+          "price": "78.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "98.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:39+02:00",
+          "updated_at": "2026-03-25T00:54:40+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457475817671,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336597819591",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965494792391,
+          "product_id": 8660032094407,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660020723911,
+      "title": "Prenatal Vitamins DHA Folic",
+      "body_html": "omega3 iron folic acid 90 day supply",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:30:00+02:00",
+      "handle": "prenatal-vitamins-dha-folic",
+      "updated_at": "2026-03-25T00:40:40+02:00",
+      "published_at": "2026-03-25T00:30:00+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660020723911",
+      "variants": [
+        {
+          "id": 46336544637127,
+          "product_id": 8660020723911,
+          "title": "Default Title",
+          "price": "50.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "63.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:30:00+02:00",
+          "updated_at": "2026-03-25T00:30:00+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457422635207,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336544637127",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480538311,
+          "product_id": 8660020723911,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925455036615,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660020723911,
+          "created_at": "2026-03-25T00:40:39+02:00",
+          "updated_at": "2026-03-25T00:40:40+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934243942599",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_54db9c52-e828-4081-9fd7-1ea870f7b302.jpg?v=1774392039",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925455036615,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660020723911,
+        "created_at": "2026-03-25T00:40:39+02:00",
+        "updated_at": "2026-03-25T00:40:40+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934243942599",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_54db9c52-e828-4081-9fd7-1ea870f7b302.jpg?v=1774392039",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660014072007,
+      "title": "Smart Watch Sport X1",
+      "body_html": "waterproof heartrate GPS 7day battery",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:07:32+02:00",
+      "handle": "smart-watch-sport-x1",
+      "updated_at": "2026-03-25T00:40:41+02:00",
+      "published_at": "2026-03-25T00:07:32+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, electronics",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660014072007",
+      "variants": [
+        {
+          "id": 46336461766855,
+          "product_id": 8660014072007,
+          "title": "Default Title",
+          "price": "249.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "312.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:07:32+02:00",
+          "updated_at": "2026-03-25T00:07:32+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457339764935,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336461766855",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965472575687,
+          "product_id": 8660014072007,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925455069383,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660014072007,
+          "created_at": "2026-03-25T00:40:41+02:00",
+          "updated_at": "2026-03-25T00:40:41+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934243975367",
+          "width": 800,
+          "height": 581,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1523275335684-37898b6baf30.jpg?v=1774392041",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925455069383,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660014072007,
+        "created_at": "2026-03-25T00:40:41+02:00",
+        "updated_at": "2026-03-25T00:40:41+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934243975367",
+        "width": 800,
+        "height": 581,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1523275335684-37898b6baf30.jpg?v=1774392041",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660020920519,
+      "title": "Stretch Mark Cream Belly Oil",
+      "body_html": "shea butter vitamin E pregnancy safe",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:30:21+02:00",
+      "handle": "stretch-mark-cream-belly-oil",
+      "updated_at": "2026-03-25T00:40:43+02:00",
+      "published_at": "2026-03-25T00:30:21+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660020920519",
+      "variants": [
+        {
+          "id": 46336545652935,
+          "product_id": 8660020920519,
+          "title": "Default Title",
+          "price": "45.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "56.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:30:21+02:00",
+          "updated_at": "2026-03-25T00:30:21+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457423651015,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336545652935",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965480833223,
+          "product_id": 8660020920519,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925455102151,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660020920519,
+          "created_at": "2026-03-25T00:40:43+02:00",
+          "updated_at": "2026-03-25T00:40:43+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934244008135",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_2c8da31d-ac18-481e-b050-a530c28e7bf1.jpg?v=1774392043",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925455102151,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660020920519,
+        "created_at": "2026-03-25T00:40:43+02:00",
+        "updated_at": "2026-03-25T00:40:43+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934244008135",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_2c8da31d-ac18-481e-b050-a530c28e7bf1.jpg?v=1774392043",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660030980295,
+      "title": "Toddler Backpack Anti Lost",
+      "body_html": "safety harness leash cute animal 1-3 years",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:54:11+02:00",
+      "handle": "toddler-backpack-anti-lost",
+      "updated_at": "2026-03-25T00:54:14+02:00",
+      "published_at": "2026-03-25T00:54:11+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "baby, dropship",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660030980295",
+      "variants": [
+        {
+          "id": 46336596476103,
+          "product_id": 8660030980295,
+          "title": "Default Title",
+          "price": "50.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "63.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:54:11+02:00",
+          "updated_at": "2026-03-25T00:54:11+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457474474183,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336596476103",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965493612743,
+          "product_id": 8660030980295,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 8660021674183,
+      "title": "Wearable Breast Pump Hands Free",
+      "body_html": "portable quiet 9 levels rechargeable discreet",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-25T00:31:28+02:00",
+      "handle": "wearable-breast-pump-hands-free",
+      "updated_at": "2026-03-25T00:40:45+02:00",
+      "published_at": "2026-03-25T00:31:28+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "dropship, maternity",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660021674183",
+      "variants": [
+        {
+          "id": 46336549290183,
+          "product_id": 8660021674183,
+          "title": "Default Title",
+          "price": "308.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "385.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-25T00:31:28+02:00",
+          "updated_at": "2026-03-25T00:31:28+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457427288263,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336549290183",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965481619655,
+          "product_id": 8660021674183,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925455298759,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660021674183,
+          "created_at": "2026-03-25T00:40:44+02:00",
+          "updated_at": "2026-03-25T00:40:45+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934244204743",
+          "width": 800,
+          "height": 504,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_e587cd9c-f6b4-441b-8c05-aed7d3465b53.jpg?v=1774392044",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925455298759,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660021674183,
+        "created_at": "2026-03-25T00:40:44+02:00",
+        "updated_at": "2026-03-25T00:40:45+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934244204743",
+        "width": 800,
+        "height": 504,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1544367567-0f2fcb009e0b_e587cd9c-f6b4-441b-8c05-aed7d3465b53.jpg?v=1774392044",
+        "variant_ids": []
+      }
+    },
+    {
+      "id": 8660003455175,
+      "title": "שעון חכם Sport X1",
+      "body_html": "<p>שעון חכם עמיד במים, דופק, GPS, סוללה 7 ימים.</p>",
+      "vendor": "My Store",
+      "product_type": "",
+      "created_at": "2026-03-24T23:49:53+02:00",
+      "handle": "שעון-חכם-sport-x1",
+      "updated_at": "2026-03-25T00:40:46+02:00",
+      "published_at": "2026-03-24T23:49:53+02:00",
+      "template_suffix": null,
+      "published_scope": "global",
+      "tags": "auto-added, dropship, supplier-AliExpress",
+      "status": "active",
+      "admin_graphql_api_id": "gid://shopify/Product/8660003455175",
+      "variants": [
+        {
+          "id": 46336388399303,
+          "product_id": 8660003455175,
+          "title": "Default Title",
+          "price": "299.00",
+          "position": 1,
+          "inventory_policy": "continue",
+          "compare_at_price": "450.00",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-03-24T23:49:53+02:00",
+          "updated_at": "2026-03-24T23:49:54+02:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": null,
+          "weight": 0,
+          "weight_unit": "kg",
+          "inventory_item_id": 48457266397383,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/46336388399303",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 10965461663943,
+          "product_id": 8660003455175,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 45925455495367,
+          "alt": null,
+          "position": 1,
+          "product_id": 8660003455175,
+          "created_at": "2026-03-25T00:40:46+02:00",
+          "updated_at": "2026-03-25T00:40:46+02:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/36934244466887",
+          "width": 800,
+          "height": 531,
+          "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_245e9ae8-88e2-4b84-a19d-b5572e986e04.jpg?v=1774392046",
+          "variant_ids": []
+        }
+      ],
+      "image": {
+        "id": 45925455495367,
+        "alt": null,
+        "position": 1,
+        "product_id": 8660003455175,
+        "created_at": "2026-03-25T00:40:46+02:00",
+        "updated_at": "2026-03-25T00:40:46+02:00",
+        "admin_graphql_api_id": "gid://shopify/MediaImage/36934244466887",
+        "width": 800,
+        "height": 531,
+        "src": "https://cdn.shopify.com/s/files/1/0771/8417/2231/files/photo-1515488042361-ee00e0ddd4e4_245e9ae8-88e2-4b84-a19d-b5572e986e04.jpg?v=1774392046",
+        "variant_ids": []
+      }
+    }
+  ],
+  "orders": [],
+  "collections": [
+    {
+      "id": 328060141767,
+      "handle": "אחרי-לידה",
+      "title": "אחרי לידה",
+      "updated_at": "2026-03-25T00:28:41+02:00",
+      "body_html": "התאוששות ושיקום",
+      "published_at": "2026-03-25T00:28:41+02:00",
+      "sort_order": "best-selling",
+      "template_suffix": null,
+      "disjunctive": false,
+      "rules": [
+        {
+          "column": "tag",
+          "relation": "equals",
+          "condition": "postpartum"
+        }
+      ],
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Collection/328060141767"
+    },
+    {
+      "id": 328060108999,
+      "handle": "הריון-ולידה",
+      "title": "הריון ולידה",
+      "updated_at": "2026-03-25T00:55:51+02:00",
+      "body_html": "מוצרים לאמא המצפה",
+      "published_at": "2026-03-25T00:28:41+02:00",
+      "sort_order": "best-selling",
+      "template_suffix": null,
+      "disjunctive": false,
+      "rules": [
+        {
+          "column": "tag",
+          "relation": "equals",
+          "condition": "maternity"
+        }
+      ],
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Collection/328060108999"
+    },
+    {
+      "id": 328060076231,
+      "handle": "מוצרי-תינוקות",
+      "title": "מוצרי תינוקות",
+      "updated_at": "2026-03-25T00:56:02+02:00",
+      "body_html": "הכל לתינוק שלך",
+      "published_at": "2026-03-25T00:28:41+02:00",
+      "sort_order": "best-selling",
+      "template_suffix": null,
+      "disjunctive": false,
+      "rules": [
+        {
+          "column": "tag",
+          "relation": "equals",
+          "condition": "baby"
+        }
+      ],
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Collection/328060076231"
+    }
+  ]
+}
