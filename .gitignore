@@ -28,3 +28,6 @@ openclaw-export*
 .pm2/
 
 *.save
+.env
+*.env*
+*.save*
