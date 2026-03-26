@@ -58,7 +58,7 @@ Risk_per: ${signal.confidence}%`,
       });
 
       const req = http.request({
-        hostname: 'localhost', port: 3001,
+        hostname: 'localhost', port: 3000,
         path: '/tg-signal', method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Content-Length': body.length }
       });

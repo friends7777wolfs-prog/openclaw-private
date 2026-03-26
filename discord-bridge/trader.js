@@ -87,6 +87,15 @@ async function executeTrade(signalText, channelName) {
       : await conn.createMarketSellOrder(asset.mt5, lots, null, null, { comment: `OpenClaw|${channelName.slice(0,10)}` });
 
     console.log(`✅ עסקה: ${asset.mt5} ${isBuy?'BUY':'SELL'} ${lots} | Ticket: ${result.orderId}`);
+    // שלח הודעה לטלגרם
+    try {
+      const tgToken = process.env.TELEGRAM_BOT_TOKEN;
+      const chatId  = process.env.TELEGRAM_CHAT_ID;
+      if (tgToken && chatId) {
+        const msg = encodeURIComponent(`✅ עסקה נפתחה!\n${asset.mt5} ${isBuy?'🟢 BUY':'🔴 SELL'} | ${lots} lots\nSL: ${sl} | TP: ${tp1}\nChannel: ${channelName}\nTicket: ${result.orderId}`);
+        require('https').get(`https://api.telegram.org/bot${tgToken}/sendMessage?chat_id=${chatId}&text=${msg}`).on('error',()=>{});
+      }
+    } catch(e) {}
     return { ...result, lots, riskPct, asset, sl };
 
   } catch (err) {

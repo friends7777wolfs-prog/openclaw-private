@@ -5,6 +5,7 @@ const Anthropic  = require('@anthropic-ai/sdk');
 const { executeTrade }     = require('./trader');
 const { detectAsset }      = require('./asset_detector');
 const { monitorPositions } = require('./macd_monitor');
+const { saveSignal } = require('../intelligence/collector');
 
 const discord   = new Client({ checkUpdate: false });
 const telegram  = new Bot(process.env.TELEGRAM_BOT_TOKEN);
@@ -109,6 +110,7 @@ ${content.slice(0, 300)}`
 }
 
 async function handleSignal(content, channelName, serverName) {
+  try { saveSignal(serverName||'tg', channelName, content); } catch(e) {}
   if (isDuplicate(content)) return;
   const { strong, weak } = signalStrength(content);
   if (strong === 0 && weak === 0) return; // לא רלוונטי בכלל
