@@ -78,7 +78,10 @@ async function smartReply(chatId, userMessage, context = '') {
     FROM signals WHERE date(created_at) = date('now')
   `).get();
 
-  const systemContext = `
+  const { SYSTEM_PROMPT } = require('./bot_context');
+const systemContext = `${SYSTEM_PROMPT}
+
+
 אתה OpenClaw AI — עוזר מסחר חכם.
 נתונים עדכניים:
 - סיגנלים אחרונים: ${JSON.stringify(recentSignals.slice(0,5))}
@@ -108,7 +111,9 @@ ${context}
 }
 
 // פקודות בוט
+
 bot.command('start', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
   await ctx.reply(
     '🦞 *OpenClaw Bot מחובר!*\n\n' +
     'מה אני יכול לעשות:\n' +
@@ -122,6 +127,7 @@ bot.command('start', async (ctx) => {
 });
 
 bot.command('stats', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
   const stats = db.prepare(`
     SELECT channel, total_signals, wins, losses,
            ROUND(CAST(wins AS FLOAT)/MAX(total_signals,1)*100,1) as win_rate,
@@ -141,6 +147,7 @@ bot.command('stats', async (ctx) => {
 });
 
 bot.command('pnl', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
   const today = db.prepare(`
     SELECT COUNT(*) as total,
            SUM(CASE WHEN result='win' THEN 1 ELSE 0 END) as wins,
@@ -182,6 +189,7 @@ bot.command('top', async (ctx) => {
 
 // תגובה לכל הודעה רגילה
 bot.on('message:text', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
   const text = ctx.message.text;
   if (text.startsWith('/')) return;
 
@@ -199,3 +207,108 @@ bot.start();
 console.log('✅ Telegram Bot אינטראקטיבי פעיל');
 
 module.exports = { formatSignal, bot };
+
+// הרשאות מלאות — Owner commands
+bot.command('help', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  await ctx.reply(`🦞 *OpenClaw — פקודות מלאות*
+
+📊 *סטטוס:*
+/status — סטטוס כל הsystems
+/logs — לוגים אחרונים
+/pnl — רווח/הפסד היום
+/stats — סטטיסטיקות ערוצים
+
+⚙️ *שליטה:*
+/restart [process] — הפעלה מחדש
+/stop [process] — עצירה
+/start_all — הפעלת הכל
+
+🔧 *קוד:*
+/run [קוד] — הרצת bash command
+/fix [תיאור] — Claude מתקן בעיה
+/deploy — git push + restart all
+
+📈 *מסחר:*
+/trades — עסקאות פתוחות
+/close_all — סגירת כל העסקאות
+/risk [%] — שינוי רמת סיכון
+
+💬 *שאל כל שאלה בשפה חופשית!*`, 
+  { parse_mode: 'Markdown' });
+});
+
+bot.command('status', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  const { execSync } = require('child_process');
+  const pm2 = execSync('cd /home/friends7777wolfs/OpenClawMaster/discord-bridge && ./node_modules/.bin/pm2 jlist').toString();
+  const processes = JSON.parse(pm2);
+  let msg = '🖥 *סטטוס OpenClaw:*\n\n';
+  processes.forEach(p => {
+    const icon = p.pm2_env.status === 'online' ? '✅' : '❌';
+    msg += `${icon} ${p.name} | ${p.pm2_env.status} | 🔄 ${p.pm2_env.restart_time}x | 💾 ${Math.round(p.monit?.memory/1024/1024)}MB\n`;
+  });
+  await ctx.reply(msg, { parse_mode: 'Markdown' });
+});
+
+bot.command('run', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  const { execSync } = require('child_process');
+  const cmd = ctx.message.text.replace('/run ', '');
+  try {
+    const output = execSync(cmd, { timeout: 10000 }).toString();
+    await ctx.reply(`\`\`\`\n${output.slice(0,3000)}\n\`\`\``, { parse_mode: 'Markdown' });
+  } catch(e) {
+    await ctx.reply(`❌ ${e.message.slice(0,500)}`);
+  }
+});
+
+bot.command('restart', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  const { execSync } = require('child_process');
+  const process_name = ctx.message.text.replace('/restart ', '').trim() || 'all';
+  try {
+    execSync(`cd /home/friends7777wolfs/OpenClawMaster/discord-bridge && ./node_modules/.bin/pm2 restart ${process_name} --update-env`);
+    await ctx.reply(`✅ ${process_name} הופעל מחדש`);
+  } catch(e) {
+    await ctx.reply(`❌ ${e.message}`);
+  }
+});
+
+bot.command('deploy', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  const { execSync } = require('child_process');
+  try {
+    execSync('cd /home/friends7777wolfs/OpenClawMaster && git add . && git commit -m "Auto deploy" && git push origin main');
+    execSync('cd /home/friends7777wolfs/OpenClawMaster/discord-bridge && ./node_modules/.bin/pm2 restart all --update-env');
+    await ctx.reply('✅ Deploy הצליח — כל הprocesses הופעלו מחדש');
+  } catch(e) {
+    await ctx.reply(`❌ ${e.message.slice(0,500)}`);
+  }
+});
+
+bot.command('logs', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  const { execSync } = require('child_process');
+  const process_name = ctx.message.text.replace('/logs', '').trim() || '';
+  try {
+    const logs = execSync(`cd /home/friends7777wolfs/OpenClawMaster/discord-bridge && ./node_modules/.bin/pm2 logs ${process_name} --lines 20 --nostream 2>/dev/null | tail -20`).toString();
+    await ctx.reply(`\`\`\`\n${logs.slice(0,3000)}\n\`\`\``, { parse_mode: 'Markdown' });
+  } catch(e) {
+    await ctx.reply(`❌ ${e.message}`);
+  }
+});
+
+// תמיכה בתמונות — ניתוח גרפים
+bot.on('message:photo', async (ctx) => {
+  if (ctx.from?.id !== 792897455) return;
+  try {
+    await ctx.replyWithChatAction('typing');
+    const photo   = ctx.message.photo[ctx.message.photo.length - 1];
+    const caption = ctx.message.caption || 'נתח את התמונה הזו בהקשר מסחרי';
+    const reply   = await smartReply(ctx.chat.id, `[תמונה נשלחה] ${caption}`);
+    await ctx.reply(reply, { parse_mode: 'Markdown' });
+  } catch(e) {
+    await ctx.reply(`❌ ${e.message}`);
+  }
+});

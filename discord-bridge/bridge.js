@@ -1,4 +1,4 @@
-require('./load_env');
+require('dotenv').config({ path: '/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env', override: true });
 const { Client } = require('discord.js-selfbot-v13');
 const { Bot }    = require('grammy');
 const Anthropic  = require('@anthropic-ai/sdk');
@@ -120,10 +120,11 @@ discord.on('ready', async () => {
 discord.on('messageCreate', async (message) => {
   if (!message.content) return;
   if (!watchedChannels.includes(message.channelId)) return;
-  if (!mightBeSignal(message.content)) return;
+  
   if (isDuplicate(message.content)) return;
 
-  const channel = message.channel?.name || 'unknown';
+  const server  = message.guild?.name   || "Unknown";
+  const channel = message.channel?.name || "unknown";
   const content = message.content;
 
   try {
@@ -131,7 +132,13 @@ discord.on('messageCreate', async (message) => {
     if (signalText) signalText = enrichSignal(signalText, channel, content);
     if (!signalText) {
       const result = await parseSignal(content, channel);
-      if (result.type === 'skip') return;
+      if (result.type === "skip") {
+      await telegram.api.sendMessage(process.env.TELEGRAM_CHAT_ID,
+        `🔔 *${server} / #${channel}*\n${content}`,
+        { parse_mode: "Markdown" }
+      );
+      return;
+    }
       signalText = result.text;
     }
 

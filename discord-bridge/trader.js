@@ -1,5 +1,6 @@
 require('./load_env');
 const MetaApi = require('metaapi.cloud-sdk').default;
+const { toMT5Symbol } = require('./symbol_map');
 const { detectAsset, calcAutoSL, calcPositionSize } = require('./position_manager');
 const { canTrade, getChannelRisk } = require('./risk_manager');
 
@@ -15,7 +16,7 @@ async function getConnection() {
   if (account.state !== 'DEPLOYED') await account.deploy();
   await account.waitConnected();
 
-  connection = account.getRPCConnection();
+  connection = account.getStreamingConnection();
   await connection.connect();
   await connection.waitSynchronized();
 
@@ -79,6 +80,19 @@ async function executeTrade(signalText, channelName) {
 
     // 6. פתיחת עסקה
     const conn   = await getConnection();
+    // קבל מחיר שוק נוכחי ותקן SL/TP
+    await conn.subscribeToMarketData(asset.mt5).catch(() => {});
+    await new Promise(r => setTimeout(r, 1500));
+    const livePrice = conn.terminalState.prices?.find(p => p.symbol === asset.mt5);
+    if (livePrice) {
+      const ask = livePrice.ask, bid = livePrice.bid;
+      const mid = isBuy ? ask : bid;
+      const slDist = Math.abs(mid - sl);
+      const tpDist = tp1 ? Math.abs(tp1 - mid) : slDist * 2;
+      sl  = isBuy ? parseFloat((mid - slDist).toFixed(5)) : parseFloat((mid + slDist).toFixed(5));
+      tp1 = isBuy ? parseFloat((mid + tpDist).toFixed(5)) : parseFloat((mid - tpDist).toFixed(5));
+      console.log(`📊 Live price: ${mid} | SL: ${sl} | TP: ${tp1}`);
+    }
     const result = isBuy
       ? await conn.createMarketBuyOrder(asset.mt5, lots, sl, tp1, { comment: `OpenClaw|${channelName.slice(0,10)}` })
       : await conn.createMarketSellOrder(asset.mt5, lots, sl, tp1, { comment: `OpenClaw|${channelName.slice(0,10)}` });

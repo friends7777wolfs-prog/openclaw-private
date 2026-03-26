@@ -1,32 +1,85 @@
-function smartDetectAsset(currency, entryPrice, channelName, rawContent) {
-  const text = ((currency || '') + ' ' + (channelName || '') + ' ' + (rawContent || '')).toUpperCase();
+const { toMT5Symbol } = require('./symbol_map');
 
-  // זיהוי מפורש מהטקסט
-  if (text.includes('MICRO GOLD') || text.includes('MGC') || text.includes('GOLD') || text.includes('XAU')) return 'XAUUSD';
-  if (text.includes('MICRO NASDAQ') || text.includes('MNQ') || text.includes('NASDAQ') || text.includes('NAS100')) return 'NAS100';
-  if (text.includes('MICRO S&P') || text.includes('MES') || text.includes('S&P')) return 'SP500';
-  if (text.includes('MICRO DOW') || text.includes('MYM')) return 'US30';
-  if (text.includes('EURUSD')) return 'EURUSD';
-  if (text.includes('GBPUSD')) return 'GBPUSD';
-  if (text.includes('USDJPY')) return 'USDJPY';
-  if (text.includes('BTC') || text.includes('BITCOIN')) return 'BTCUSD';
-  if (text.includes('ETH')) return 'ETHUSD';
+const ASSET_MAP = {
+  // אינדקסים
+  'MNQ': 'NAS100', 'NQ': 'NAS100', 'NAS100': 'NAS100', 'USD@24000': 'NAS100',
+  'MGC': 'XAUUSD', 'GC': 'XAUUSD', 'XAUUSD': 'XAUUSD', 'GOLD': 'XAUUSD',
+  'ES': 'SP500', 'SP500': 'SP500', 'MES': 'SP500',
+  'BTC': 'BTCUSD', 'BTCUSD': 'BTCUSD', 'ETH': 'ETHUSD', 'ETHUSD': 'ETHUSD',
+  'US30': 'US30', 'DOW': 'US30',
+  // פורקס
+  'EURUSD': 'EURUSD', 'GBPUSD': 'GBPUSD', 'USDJPY': 'USDJPY',
+  'USDCHF': 'USDCHF', 'AUDUSD': 'AUDUSD', 'NZDUSD': 'NZDUSD',
+  'USDCAD': 'USDCAD', 'EURGBP': 'EURGBP', 'EURJPY': 'EURJPY',
+  'GBPJPY': 'GBPJPY', 'EURAUD': 'EURAUD', 'GBPAUD': 'GBPAUD',
+  'AUDCAD': 'AUDCAD', 'AUDCHF': 'AUDCHF', 'CADCHF': 'CADCHF',
+  'CADJPY': 'CADJPY', 'CHFJPY': 'CHFJPY', 'EURCHF': 'EURCHF',
+  'EURNZD': 'EURNZD', 'GBPCAD': 'GBPCAD', 'GBPCHF': 'GBPCHF',
+  'GBPNZD': 'GBPNZD', 'NZDCAD': 'NZDCAD', 'NZDCHF': 'NZDCHF',
+  'NZDJPY': 'NZDJPY', 'AUDNZD': 'AUDNZD', 'AUDJPY': 'AUDJPY',
+  'XAGUSD': 'XAGUSD', 'SILVER': 'XAGUSD',
+};
 
-  // זיהוי לפי טווח מחיר
-  const price = parseFloat(entryPrice) || 0;
-  if (price > 1800 && price < 3500)  return 'XAUUSD';   // Gold
-  if (price > 15000 && price < 25000) return 'NAS100';  // Nasdaq
-  if (price > 4000  && price < 7000)  return 'SP500';   // S&P500
-  if (price > 30000 && price < 50000) return 'US30';    // Dow
-  if (price > 0.5   && price < 2)     return 'EURUSD';  // Forex
+const PRICE_RANGES = {
+  'NAS100': [15000, 25000],
+  'XAUUSD': [1800, 5500],
+  'SP500':  [3000, 6000],
+  'BTCUSD': [20000, 120000],
+};
 
-  // ברירת מחדל לפי שם ערוץ
-  const ch = (channelName || '').toLowerCase();
-  if (ch.includes('gold') || ch.includes('xau')) return 'XAUUSD';
-  if (ch.includes('nasdaq') || ch.includes('nas')) return 'NAS100';
-  if (ch.includes('forex') || ch.includes('fx'))  return 'EURUSD';
+const cache = new Map();
+const CACHE_MAX = 500;
 
-  return currency || 'XAUUSD';
+function detectAsset(text, channelName) {
+  const key = text.slice(0, 80);
+  if (cache.has(key)) return cache.get(key);
+
+  const upper = text.toUpperCase();
+
+  // חפש לפי Asset: שדה קודם
+  const assetField = upper.match(/ASSET:\s*([A-Z0-9@]+)/);
+  if (assetField) {
+    const sym = assetField[1];
+    if (ASSET_MAP[sym]) {
+      const result = makeResult(ASSET_MAP[sym]);
+      cache.set(key, result);
+      return result;
+    }
+  }
+
+  // חפש לפי מילות מפתח
+  for (const [sym, asset] of Object.entries(ASSET_MAP)) {
+    // וודא שזה מילה שלמה (לא "ES" בתוך "Entering price")
+    const regex = new RegExp('\\b' + sym + '\\b');
+    if (regex.test(upper)) {
+      const result = makeResult(asset);
+      cache.set(key, result);
+      return result;
+    }
+  }
+
+  // fallback לפי טווח מחיר
+  const prices = [...text.matchAll(/\b(\d{4,6}(?:\.\d+)?)\b/g)].map(m => parseFloat(m[1]));
+  for (const price of prices) {
+    for (const [asset, [min, max]] of Object.entries(PRICE_RANGES)) {
+      if (price >= min && price <= max) {
+        const result = makeResult(asset);
+        cache.set(key, result);
+        return result;
+      }
+    }
+  }
+
+  cache.set(key, null);
+  return null;
 }
 
-module.exports = { smartDetectAsset };
+function makeResult(symbol) {
+  return { symbol, mt5: toMT5Symbol(symbol) };
+}
+
+function getCacheStats() {
+  return { size: cache.size, max: CACHE_MAX };
+}
+
+module.exports = { detectAsset, getCacheStats };
