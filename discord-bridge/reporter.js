@@ -1,3 +1,4 @@
+require('dotenv').config({ path: '/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env' });
 require('./load_env');
 const { Bot }    = require('grammy');
 const Database   = require('better-sqlite3');

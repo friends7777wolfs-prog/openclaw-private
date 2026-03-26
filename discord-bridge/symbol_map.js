@@ -52,4 +52,13 @@ function toMT5Symbol(symbol) {
   return MT5_SYMBOLS[symbol?.toUpperCase()] || symbol;
 }
 
-module.exports = { toMT5Symbol };
+module.exports = {
+  // Gold Futures → XAUUSD (same correlation, prices ~identical)
+  'MGC1!': 'XAUUSD', 'MGC1': 'XAUUSD', 'MGC': 'XAUUSD',
+  'GC1!':  'XAUUSD', 'GC':   'XAUUSD',
+  // Nasdaq Futures → NAS100 (same correlation, prices ~identical)
+  'MNQ1!': 'NAS100', 'MNQ1': 'NAS100', 'MNQ': 'NAS100',
+  'NQ1!':  'NAS100', 'NQ':   'NAS100',
+  // SP500 Futures
+  'ES1!':  'SP500',  'ES':   'SP500',
+  'MES1!': 'SP500',  'MES':  'SP500', toMT5Symbol };

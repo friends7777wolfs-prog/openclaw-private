@@ -1,0 +1,60 @@
+{
+  "winningPatterns": [],
+  "losingPatterns": [],
+  "thresholds": {
+    "minConfidence": 50,
+    "minWeight": 6
+  },
+  "performance": [
+    {
+      "ts": "2026-03-26T21:25:13.294Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-26T21:27:08.792Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-26T21:29:20.790Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-26T21:31:18.798Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-26T21:59:44.286Z",
+      "signalCount": 5,
+      "avgConfidence": 5.675675675675675
+    },
+    {
+      "ts": "2026-03-26T22:01:34.537Z",
+      "signalCount": 1,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-26T22:09:27.784Z",
+      "signalCount": 1,
+      "avgConfidence": 10.333333333333334
+    },
+    {
+      "ts": "2026-03-26T22:11:24.541Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-26T22:12:47.034Z",
+      "signalCount": 1,
+      "avgConfidence": 62
+    },
+    {
+      "ts": "2026-03-26T22:42:55.531Z",
+      "signalCount": 3,
+      "avgConfidence": 39.8
+    }
+  ]
+}

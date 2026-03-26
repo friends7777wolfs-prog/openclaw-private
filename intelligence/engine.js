@@ -1,4 +1,5 @@
 require('dotenv').config({ path: '/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env' });
+function escapeHtml(t) { return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 const cron       = require('node-cron');
 const { Bot }    = require('grammy');
 const nodemailer = require('nodemailer');
@@ -27,7 +28,7 @@ async function sendAnalysis() {
     // חלוקה לחלקים אם ארוך מדי
     const chunks = msg.match(/[\s\S]{1,4000}/g) || [msg];
     for (const chunk of chunks) {
-      await telegram.api.sendMessage(CHAT_ID, chunk, { parse_mode: 'Markdown' });
+      await telegram.api.sendMessage(CHAT_ID, escapeHtml(chunk), { parse_mode: 'HTML' });
     }
 
     // בדיקת סיגנל AI

@@ -44,6 +44,7 @@ async function executeTrade(signalText, channelName) {
 
     // 2. זיהוי נכס
     const asset = detectAsset(signalText, channelName);
+    if (!asset) { console.log('⚠️ לא זוהה נכס'); return null; }
     console.log(`🎯 נכס: ${asset.symbol} → MT5: ${asset.mt5}`);
 
     // 3. חילוץ פרמטרים

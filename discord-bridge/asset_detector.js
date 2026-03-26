@@ -39,7 +39,8 @@ function detectAsset(text, channelName) {
   // חפש לפי Asset: שדה קודם
   const assetField = upper.match(/ASSET:\s*([A-Z0-9@]+)/);
   if (assetField) {
-    const sym = assetField[1];
+    const sym = assetField ? assetField[1] : null;
+    if (!sym) continue;
     if (ASSET_MAP[sym]) {
       const result = makeResult(ASSET_MAP[sym]);
       cache.set(key, result);

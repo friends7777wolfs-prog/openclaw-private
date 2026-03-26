@@ -3,7 +3,6 @@ const { Client } = require('discord.js-selfbot-v13');
 const { Bot }    = require('grammy');
 const Anthropic  = require('@anthropic-ai/sdk');
 const { executeTrade }     = require('./trader');
-const { parseSignal }   = require('./signal_parser');
 const { detectAsset }      = require('./asset_detector');
 const { monitorPositions } = require('./macd_monitor');
 const { saveSignal } = require('../intelligence/collector');
@@ -47,23 +46,34 @@ function tryParseLocal(content, channelName) {
     const isSell = content.includes('🔴') || content.includes('⬇️');
     const asset  = detectAsset(content, channelName);
     if (!asset) return null;
-    const scoreEntry = scoreMatch[2] || scoreMatch[3] || 'N/A';
-    const scoreRisk  = scoreMatch[1] || 'N/A';
     return `Action_type: ${isBuy?'Long':isSell?'Short':'N/A'}
 Asset: ${asset.symbol}
-Entering price: ${scoreEntry}
+Entering price: ${scoreMatch[2]}
 Buy or Sell: ${isBuy?'Buy':isSell?'Sell':'Unknown'}
 Take profit 1: N/A
 Stop loss: N/A
-Risk_per: ${scoreRisk}%`;
+Risk_per: ${scoreMatch[1]}%`;
   }
 
-  // פורמט מובנה — parseSignal מטפל בהכל
-  return parseSignal(content, channelName);
+  // פורמט מובנה: Buy/Sell + מחיר
+  const dirMatch  = content.match(/\b(buy|sell|long|short)\b/i);
+  const priceMatch = content.match(/(?:entry|enter|price|@)\s*:?\s*([\d]{3,6}(?:\.\d+)?)/i);
+  const tpMatch   = content.match(/(?:tp|take.?profit)\s*1?\s*:?\s*([\d]{3,6}(?:\.\d+)?)/i);
+  const slMatch   = content.match(/(?:sl|stop.?loss)\s*:?\s*([\d]{3,6}(?:\.\d+)?)/i);
+  const asset     = detectAsset(content, channelName);
+
+  if (!dirMatch || !priceMatch || !asset) return null;
+
+  const isBuy = /buy|long/i.test(dirMatch[1]);
+  return `Asset: ${asset.symbol}
+Buy or Sell: ${isBuy ? 'Buy' : 'Sell'}
+Entering price: ${priceMatch[1]}
+Take profit 1: ${tpMatch ? tpMatch[1] : 'N/A'}
+Stop loss: ${slMatch ? slMatch[1] : 'N/A'}
+Action_type: ${isBuy ? 'Long' : 'Short'}`;
 }
 
 function isUsefulSignal(parsed) {
-  if (!parsed) return false;
   return parsed.match(/Entering price:\s*(?!N\/A)(\S+)/) &&
         (parsed.match(/Buy or Sell:\s*(Buy|Sell)/i) ||
          parsed.match(/Action_type:\s*(Long|Short)/i));
@@ -93,7 +103,6 @@ Action_type:
 ${content.slice(0, 300)}`
     }]
   });
-  if (!response?.content?.[0]?.text) return { type: 'skip' };
   const text = response.content[0].text.trim();
   if (text.startsWith('NOT_SIGNAL')) return { type: 'skip' };
   if (!isUsefulSignal(text)) return { type: 'skip' };
@@ -187,7 +196,7 @@ discord.on('messageCreate', async (message) => {
   try {
     await handleSignal(message.content, channel, server);
   } catch (err) {
-    console.error('❌ bridge STACK:', err.stack || err.message);
+    console.error('❌ bridge:', err.message);
   }
 });
 

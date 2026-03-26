@@ -1,0 +1,803 @@
+[
+  {
+    "id": "25073877",
+    "handle": "realDonaldTrump",
+    "cat": "POLITICS",
+    "weight": 10,
+    "assets": [
+      "SP500",
+      "NAS100"
+    ]
+  },
+  {
+    "id": "44196397",
+    "handle": "elonmusk",
+    "cat": "TECH_CEO",
+    "weight": 10,
+    "assets": [
+      "BTCUSD",
+      "NAS100"
+    ]
+  },
+  {
+    "id": "507343905",
+    "handle": "JPMorgan",
+    "cat": "BANK",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "10451268",
+    "handle": "GoldmanSachs",
+    "cat": "BANK",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "49081533",
+    "handle": "BillAckman",
+    "cat": "HEDGE_FUND",
+    "weight": 9,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "247047491",
+    "handle": "michael_saylor",
+    "cat": "CRYPTO",
+    "weight": 9,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "351711206",
+    "handle": "CathieDWood",
+    "cat": "FUND",
+    "weight": 8,
+    "assets": [
+      "NAS100",
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "209708197",
+    "handle": "chamath",
+    "cat": "VC",
+    "weight": 8,
+    "assets": [
+      "NAS100",
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "14151620",
+    "handle": "paulg",
+    "cat": "VC",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "1344951503740448769",
+    "handle": "NickTimiraos",
+    "cat": "FED_WATCHER",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "ALL"
+    ]
+  },
+  {
+    "id": "28139038",
+    "handle": "Bloomberg",
+    "cat": "MEDIA",
+    "weight": 8,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "20402945",
+    "handle": "FT",
+    "cat": "MEDIA",
+    "weight": 8,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "2551000347",
+    "handle": "CNBCnow",
+    "cat": "MEDIA",
+    "weight": 7,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "29513598",
+    "handle": "paulkrugman",
+    "cat": "ECONOMIST",
+    "weight": 7,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "1624452539",
+    "handle": "elerianmo",
+    "cat": "ECONOMIST",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "383309690",
+    "handle": "RaoulGMI",
+    "cat": "MACRO",
+    "weight": 8,
+    "assets": [
+      "BTCUSD",
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "357312062",
+    "handle": "KobeissiLetter",
+    "cat": "TRADER",
+    "weight": 8,
+    "assets": [
+      "SP500",
+      "NAS100"
+    ]
+  },
+  {
+    "id": "1002778237",
+    "handle": "unusual_whales",
+    "cat": "TRADER",
+    "weight": 8,
+    "assets": [
+      "SP500",
+      "NAS100"
+    ]
+  },
+  {
+    "id": "969128839",
+    "handle": "DeItaone",
+    "cat": "MEDIA",
+    "weight": 8,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "205518936",
+    "handle": "VitalikButerin",
+    "cat": "CRYPTO",
+    "weight": 8,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "357312062",
+    "handle": "cz_binance",
+    "cat": "CRYPTO",
+    "weight": 8,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "945685559",
+    "handle": "APompliano",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "1091485354",
+    "handle": "woonomic",
+    "cat": "CRYPTO",
+    "weight": 8,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "411593091",
+    "handle": "100trillionUSD",
+    "cat": "CRYPTO",
+    "weight": 8,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "2312333412",
+    "handle": "glassnode",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "15461790",
+    "handle": "satyanadella",
+    "cat": "TECH_CEO",
+    "weight": 8,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "67473503",
+    "handle": "sundarpichai",
+    "cat": "TECH_CEO",
+    "weight": 8,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "20536157",
+    "handle": "tim_cook",
+    "cat": "TECH_CEO",
+    "weight": 8,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "1361398895869612034",
+    "handle": "jensenhuang",
+    "cat": "TECH_CEO",
+    "weight": 9,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "16953818",
+    "handle": "sama",
+    "cat": "AI",
+    "weight": 8,
+    "assets": [
+      "NAS100",
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "832942137",
+    "handle": "karpathy",
+    "cat": "AI",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "12497132",
+    "handle": "ylecun",
+    "cat": "AI",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "790120304",
+    "handle": "nvidia",
+    "cat": "TECH_CEO",
+    "weight": 9,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "50712614",
+    "handle": "MorganStanley",
+    "cat": "BANK",
+    "weight": 8,
+    "assets": [
+      "SP500",
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "7412822",
+    "handle": "citi",
+    "cat": "BANK",
+    "weight": 8,
+    "assets": [
+      "SP500",
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "803694179",
+    "handle": "IMFNews",
+    "cat": "INSTITUTION",
+    "weight": 9,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "822215679785217024",
+    "handle": "EmmanuelMacron",
+    "cat": "POLITICS",
+    "weight": 8,
+    "assets": [
+      "EURUSD",
+      "SP500"
+    ]
+  },
+  {
+    "id": "2899547342",
+    "handle": "POTUS",
+    "cat": "POLITICS",
+    "weight": 9,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "738418491",
+    "handle": "vonderleyen",
+    "cat": "POLITICS",
+    "weight": 8,
+    "assets": [
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "14293310",
+    "handle": "WarrenBuffett",
+    "cat": "INVESTOR",
+    "weight": 10,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "15745368",
+    "handle": "jimcramer",
+    "cat": "MEDIA",
+    "weight": 6,
+    "assets": [
+      "SP500",
+      "NAS100"
+    ]
+  },
+  {
+    "id": "18949452",
+    "handle": "AramcoNews",
+    "cat": "ENERGY",
+    "weight": 8,
+    "assets": [
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "1452524688680382468",
+    "handle": "KashkariNeel",
+    "cat": "FED",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "ALL"
+    ]
+  },
+  {
+    "id": "3026334260",
+    "handle": "waller_fed",
+    "cat": "FED",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "ALL"
+    ]
+  },
+  {
+    "id": "26574283",
+    "handle": "DiMartinoBooth",
+    "cat": "MACRO",
+    "weight": 8,
+    "assets": [
+      "SP500",
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "294735492",
+    "handle": "JimRickards",
+    "cat": "MACRO",
+    "weight": 7,
+    "assets": [
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "17098012",
+    "handle": "MacroAlf",
+    "cat": "MACRO",
+    "weight": 7,
+    "assets": [
+      "SP500",
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "12631792",
+    "handle": "TaviCosta",
+    "cat": "MACRO",
+    "weight": 8,
+    "assets": [
+      "XAUUSD",
+      "SP500"
+    ]
+  },
+  {
+    "id": "311209040",
+    "handle": "GrantWilliams_",
+    "cat": "MACRO",
+    "weight": 8,
+    "assets": [
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "877402355",
+    "handle": "CryptoHayes",
+    "cat": "CRYPTO",
+    "weight": 8,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "733891598",
+    "handle": "TuurDemeester",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "9560502",
+    "handle": "brian_armstrong",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "357312062",
+    "handle": "WClementeIII",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "2312333412",
+    "handle": "Blockworks_",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "1367669032",
+    "handle": "DocumentingBTC",
+    "cat": "CRYPTO",
+    "weight": 6,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "1002778237",
+    "handle": "markets",
+    "cat": "MEDIA",
+    "weight": 8,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "16184358",
+    "handle": "MarketWatch",
+    "cat": "MEDIA",
+    "weight": 7,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "1652541",
+    "handle": "TheTerminal_",
+    "cat": "MEDIA",
+    "weight": 7,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "1027212713",
+    "handle": "financialtimes",
+    "cat": "MEDIA",
+    "weight": 8,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "34713362",
+    "handle": "business",
+    "cat": "MEDIA",
+    "weight": 7,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "166778053",
+    "handle": "EconomicTimes",
+    "cat": "MEDIA",
+    "weight": 6,
+    "assets": [
+      "ALL"
+    ]
+  },
+  {
+    "id": "94203707",
+    "handle": "SecBlinken",
+    "cat": "POLITICS",
+    "weight": 8,
+    "assets": [
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "1042671",
+    "handle": "RishiSunak",
+    "cat": "POLITICS",
+    "weight": 7,
+    "assets": [
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "2407994451",
+    "handle": "OlafScholz",
+    "cat": "POLITICS",
+    "weight": 7,
+    "assets": [
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "822215679785217024",
+    "handle": "MeloniGiorgia",
+    "cat": "POLITICS",
+    "weight": 7,
+    "assets": [
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "1166577350",
+    "handle": "SwedishPM",
+    "cat": "POLITICS",
+    "weight": 6,
+    "assets": [
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "14690037",
+    "handle": "UN",
+    "cat": "GEOPOLITICS",
+    "weight": 7,
+    "assets": [
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "17081636",
+    "handle": "Shell",
+    "cat": "ENERGY",
+    "weight": 6,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "15367602",
+    "handle": "UBS",
+    "cat": "BANK",
+    "weight": 7,
+    "assets": [
+      "EURUSD",
+      "SP500"
+    ]
+  },
+  {
+    "id": "52491127",
+    "handle": "CreditSuisse",
+    "cat": "BANK",
+    "weight": 7,
+    "assets": [
+      "EURUSD",
+      "SP500"
+    ]
+  },
+  {
+    "id": "337808606",
+    "handle": "profplum99",
+    "cat": "MACRO",
+    "weight": 7,
+    "assets": [
+      "SP500",
+      "XAUUSD"
+    ]
+  },
+  {
+    "id": "15495802",
+    "handle": "AmbroseEP",
+    "cat": "MACRO",
+    "weight": 7,
+    "assets": [
+      "XAUUSD",
+      "EURUSD"
+    ]
+  },
+  {
+    "id": "1680644233",
+    "handle": "GregDaco",
+    "cat": "ECONOMIST",
+    "weight": 7,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "253929825",
+    "handle": "IanShepherdson",
+    "cat": "ECONOMIST",
+    "weight": 7,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "14169521",
+    "handle": "darioperkins",
+    "cat": "MACRO",
+    "weight": 8,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "17461978",
+    "handle": "andyHaldane",
+    "cat": "ECONOMIST",
+    "weight": 7,
+    "assets": [
+      "SP500"
+    ]
+  },
+  {
+    "id": "16409683",
+    "handle": "drfeifei",
+    "cat": "AI",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "19802879",
+    "handle": "gdb",
+    "cat": "AI",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "7764532",
+    "handle": "demishassabis",
+    "cat": "AI",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "132385468",
+    "handle": "AnthropicAI",
+    "cat": "AI",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "22105088",
+    "handle": "AMD",
+    "cat": "TECH_CEO",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "1855671",
+    "handle": "intel",
+    "cat": "TECH_CEO",
+    "weight": 7,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "20536157",
+    "handle": "JeffBezos",
+    "cat": "TECH_CEO",
+    "weight": 8,
+    "assets": [
+      "NAS100"
+    ]
+  },
+  {
+    "id": "16409683",
+    "handle": "coinbase",
+    "cat": "CRYPTO",
+    "weight": 7,
+    "assets": [
+      "BTCUSD"
+    ]
+  },
+  {
+    "id": "16890498",
+    "handle": "SecYellen",
+    "cat": "POLITICS",
+    "weight": 9,
+    "assets": [
+      "SP500",
+      "ALL"
+    ]
+  },
+  {
+    "id": "38529346",
+    "handle": "eucopresident",
+    "cat": "POLITICS",
+    "weight": 8,
+    "assets": [
+      "EURUSD",
+      "SP500"
+    ]
+  }
+]
