@@ -1,10 +1,10 @@
 require('dotenv').config({ path: '/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env' });
 const cron    = require('node-cron');
-const { Bot } = require('grammy');
 const { analyzeSystem, db } = require('./analyzer');
 const { applyFix, restartProcess } = require('./fixer');
 
-const telegram = new Bot(process.env.TELEGRAM_BOT_TOKEN);
+const _tgSend = (text) => { try { require('https').get('https://api.telegram.org/bot'+process.env.TELEGRAM_BOT_TOKEN+'/sendMessage?chat_id='+process.env.TELEGRAM_CHAT_ID+'&text='+encodeURIComponent(text)+'&parse_mode=Markdown').on('error',()=>{}); } catch(e){} };
+const telegram = { api: { sendMessage: (cid, text, opts) => { _tgSend(text); return Promise.resolve(); } } };
 const CHAT_ID  = process.env.TELEGRAM_CHAT_ID;
 
 // שמירת pending approvals
@@ -164,7 +164,6 @@ cron.schedule('0 6 * * *', async () => {         // כל בוקר ב-06:00
   await telegram.api.sendMessage(CHAT_ID, msg, { parse_mode: 'Markdown' });
 });
 
-telegram.start();
 console.log('🧬 Self-Improve Engine פעיל');
 console.log('🔍 סריקה כל שעה');
 console.log('📱 פקודות: /approve, /reject, /scan, /improve_log');
