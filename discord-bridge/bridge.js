@@ -109,8 +109,43 @@ ${content.slice(0, 300)}`
   return { type: 'signal', text };
 }
 
+
+// זיהוי סוג הוראה
+function getOrderType(content) {
+  const upper = content.toUpperCase();
+  const actionMatch = upper.match(/ACTION_TYPE:\s*([^\n]+)/);
+  const action = actionMatch ? actionMatch[1].trim() : '';
+  // LIMIT = Add to Position / Monitor / Pending / Limit
+  if (/ADD TO POSITION|MONITOR|PENDING|LIMIT ORDER/.test(action)) return 'LIMIT';
+  // MARKET = Strong Buy/Sell / Entry / Long / Short
+  if (/STRONG|ENTRY|LONG ENTRY|SHORT ENTRY|BUY NOW|SELL NOW/.test(action)) return 'MARKET';
+  // ברירת מחדל — MARKET
+  return 'MARKET';
+}
+
+// שלח ל-POOL בטלגרם (ללא ביצוע)
+async function sendToPool(content, channelName, orderType, asset) {
+  const token  = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
+  if (!token || !chatId) return;
+  const typeEmoji = orderType === 'LIMIT' ? '⏳ LIMIT' : '⚡ MARKET';
+  const msg = encodeURIComponent(
+    `📥 POOL | ${typeEmoji}\n` +
+    `🎯 ${asset?.mt5 || '?'} | 📡 ${channelName}\n` +
+    `\n${content.slice(0,300)}`
+  );
+  require('https').get(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${msg}&parse_mode=Markdown`).on('error',()=>{});
+}
+
 async function handleSignal(content, channelName, serverName) {
   try { saveSignal(serverName||'tg', channelName, content); } catch(e) {}
+  const _orderType = getOrderType(content);
+  const _asset = detectAsset(content, channelName);
+  await sendToPool(content, channelName, _orderType, _asset);
+  if (_orderType === 'LIMIT') {
+    console.log(`⏳ LIMIT — נשמר ב-POOL, לא בוצע: ${_asset?.mt5}`);
+    return;
+  }
   if (isDuplicate(content)) return;
   const { strong, weak } = signalStrength(content);
   if (strong === 0 && weak === 0) return; // לא רלוונטי בכלל
