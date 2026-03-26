@@ -1,7 +1,8 @@
 require('./load_env');
 const MetaApi = require('metaapi.cloud-sdk').default;
 const { toMT5Symbol } = require('./symbol_map');
-const { detectAsset, calcAutoSL, calcPositionSize } = require('./position_manager');
+const { detectAsset } = require('./asset_detector');
+const { calcAutoSL, calcPositionSize } = require('./position_manager');
 const { canTrade, getChannelRisk } = require('./risk_manager');
 
 let connection  = null;

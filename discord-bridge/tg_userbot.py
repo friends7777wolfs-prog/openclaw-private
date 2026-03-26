@@ -9,7 +9,7 @@ load_dotenv('/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env')
 API_ID   = int(os.getenv('TG_API_ID'))
 API_HASH = os.getenv('TG_API_HASH')
 SESSION  = '/home/friends7777wolfs/OpenClawMaster/discord-bridge/openclaw_userbot'
-BRIDGE   = 'http://localhost:3001/tg-signal'
+BRIDGE   = 'http://localhost:3000/tg-signal'
 
 WATCH_CHANNELS = [int(x) for x in os.getenv('TG_WATCH_CHANNELS','').split(',') if x]
 

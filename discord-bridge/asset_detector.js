@@ -47,9 +47,9 @@ function detectAsset(text, channelName) {
     }
   }
 
-  // חפש לפי מילות מפתח
+  // חפש לפי מילות מפתח — רק סימבולים של 4+ תווים (למנוע ES/MNQ/CL בטקסט)
   for (const [sym, asset] of Object.entries(ASSET_MAP)) {
-    // וודא שזה מילה שלמה (לא "ES" בתוך "Entering price")
+    if (sym.length < 4) continue; // דלג על קיצורים קצרים שעלולים להופיע בטקסט רגיל
     const regex = new RegExp('\\b' + sym + '\\b');
     if (regex.test(upper)) {
       const result = makeResult(asset);
@@ -74,8 +74,25 @@ function detectAsset(text, channelName) {
   return null;
 }
 
+const ASSET_META = {
+  'NAS100': { type:'index',     pointValue:2,      defaultATR:50   },
+  'SP500':  { type:'index',     pointValue:50,     defaultATR:20   },
+  'US30':   { type:'index',     pointValue:5,      defaultATR:150  },
+  'XAUUSD': { type:'metal',     pointValue:100,    defaultATR:15   },
+  'XAGUSD': { type:'metal',     pointValue:5000,   defaultATR:0.3  },
+  'BTCUSD': { type:'crypto',    pointValue:1,      defaultATR:1000 },
+  'ETHUSD': { type:'crypto',    pointValue:1,      defaultATR:50   },
+  'USOIL':  { type:'commodity', pointValue:1000,   defaultATR:1    },
+};
+const FOREX_ATR = { JPY:0.5, default:0.0010 };
+
 function makeResult(symbol) {
-  return { symbol, mt5: toMT5Symbol(symbol) };
+  const mt5  = toMT5Symbol(symbol);
+  const meta = ASSET_META[mt5];
+  if (meta) return { symbol, mt5, ...meta };
+  // forex
+  const atr = (mt5.includes('JPY') || mt5.includes('XAU')) ? FOREX_ATR.JPY : FOREX_ATR.default;
+  return { symbol, mt5, type:'forex', pointValue:100000, defaultATR:atr };
 }
 
 function getCacheStats() {
