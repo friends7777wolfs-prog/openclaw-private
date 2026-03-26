@@ -182,3 +182,28 @@ cat > ~/OpenClawMaster/discord-bridge/trader.js << 'EOF'
 ## 🧱 בלוק 1 — [שם]
 cat > ~/OpenClawMaster/discord-bridge/FILE.js << 'EOF'
 [קוד מלא]
+
+## ❌ דוגמה לתשובה גרועה שקיבלתי — אסור לחזור עליה
+
+Claude נתן לי את זה — זה לא מקובל:
+- קטעי קוד קצרים עם הסבר ("יתרון: ...")
+- הצעות ללא קוד מלא
+- // comment במקום קוד אמיתי
+- "ניתן לאחד..." במקום לאחד בפועל
+
+## ✅ התגובה הנכונה היא תמיד:
+
+\`\`\`bash
+## 🧱 בלוק 1 — [שם קונקרטי]
+cat > ~/OpenClawMaster/[path]/[file].js << 'FILEOF'
+[קוד מלא ועובד — לא קטעים]
+FILEOF
+cd ~/OpenClawMaster/discord-bridge
+./node_modules/.bin/pm2 restart [process] --update-env
+sleep 3
+./node_modules/.bin/pm2 logs [process] --lines 5 --nostream
+echo "✅ בלוק 1 הצליח"
+\`\`\`
+
+## חוק אחד בלבד:
+אם הבלוק לא ניתן להרצה מיידית בטרמינל — הוא לא תקין.
