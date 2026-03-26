@@ -1,17 +1,17 @@
 const MT5_SYMBOLS = {
-  // אינדקסים — נבדוק שמות מדויקים אחר כך
-  'NAS100':  'COMP',
-  'NASDAQ':  'COMP',
-  'SP500':   'US500',
-  'ES':      'US500',
+  // אינדקסים
+  'NAS100':  'NAS100',
+  'NASDAQ':  'NAS100',
+  'SP500':   'SP500',
+  'US500':   'SP500',
   'US30':    'US30',
   'DOW':     'US30',
-
   // מתכות
   'XAUUSD':  'XAUUSD',
   'GOLD':    'XAUUSD',
-
-  // פורקס — אלה בטוח עובדים
+  'XAGUSD':  'XAGUSD',
+  'SILVER':  'XAGUSD',
+  // פורקס
   'EURUSD':  'EURUSD',
   'GBPUSD':  'GBPUSD',
   'USDJPY':  'USDJPY',
@@ -22,11 +22,30 @@ const MT5_SYMBOLS = {
   'EURGBP':  'EURGBP',
   'EURJPY':  'EURJPY',
   'GBPJPY':  'GBPJPY',
-
+  'EURAUD':  'EURAUD',
+  'GBPAUD':  'GBPAUD',
+  'AUDJPY':  'AUDJPY',
+  'CADJPY':  'CADJPY',
+  'CHFJPY':  'CHFJPY',
+  'GBPCAD':  'GBPCAD',
+  'GBPCHF':  'GBPCHF',
+  'GBPNZD':  'GBPNZD',
+  'EURNZD':  'EURNZD',
+  'AUDCAD':  'AUDCAD',
+  'AUDCHF':  'AUDCHF',
+  'AUDNZD':  'AUDNZD',
+  'CADCHF':  'CADCHF',
+  'NZDCAD':  'NZDCAD',
+  'NZDCHF':  'NZDCHF',
+  'NZDJPY':  'NZDJPY',
   // קריפטו
   'BTCUSD':  'BTCUSD',
   'BTC':     'BTCUSD',
   'ETHUSD':  'ETHUSD',
+  'ETH':     'ETHUSD',
+  // סחורות
+  'USOIL':   'USOIL',
+  'OIL':     'USOIL',
 };
 
 function toMT5Symbol(symbol) {

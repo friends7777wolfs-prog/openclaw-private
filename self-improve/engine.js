@@ -72,79 +72,8 @@ async function processAnalysis() {
 }
 
 // פקודות אישור/דחייה
-telegram.command('approve', async (ctx) => {
-  const key   = ctx.message.text.split(' ')[1];
-  const issue = pendingApprovals.get(key);
-
-  if (!issue) {
-    await ctx.reply('❌ לא נמצא שינוי ממתין עם המזהה הזה');
-    return;
-  }
-
-  const dbIssue = db.prepare(
-    'SELECT * FROM issues WHERE description=? AND status="pending" LIMIT 1'
-  ).get(issue.description);
-
-  if (!dbIssue) {
-    await ctx.reply('❌ הבעיה לא נמצאה ב-DB');
-    return;
-  }
-
-  await ctx.reply(`🔧 מחיל תיקון: ${issue.description}...`);
-  const result = applyFix({ ...issue, id: dbIssue.id });
-
-  if (result.success) {
-    const restarted = restartProcess(issue.file);
-    pendingApprovals.delete(key);
-    await ctx.reply(
-      `✅ *תיקון הוחל בהצלחה*\n` +
-      `📁 ${issue.file}\n` +
-      `🔄 Process: ${restarted ? 'הופעל מחדש' : 'לא נדרש restart'}`,
-      { parse_mode: 'Markdown' }
-    );
-  } else {
-    await ctx.reply(`❌ תיקון נכשל: ${result.error}`);
-  }
-});
-
-telegram.command('reject', async (ctx) => {
-  const key = ctx.message.text.split(' ')[1];
-  if (pendingApprovals.has(key)) {
-    const issue = pendingApprovals.get(key);
-    pendingApprovals.delete(key);
-
-    db.prepare("UPDATE issues SET status='rejected' WHERE description=?")
-      .run(issue.description);
-
-    await ctx.reply(`🚫 שינוי נדחה: ${issue.description}`);
-  } else {
-    await ctx.reply('❌ מזהה לא תקין');
-  }
-});
-
 // הצגת היסטוריית שיפורים
-telegram.command('improve_log', async (ctx) => {
-  const logs = db.prepare(`
-    SELECT action, file, success, created_at
-    FROM improve_log
-    ORDER BY created_at DESC LIMIT 10
-  `).all();
-
-  let text = '📜 *היסטוריית שיפורים:*\n\n';
-  logs.forEach(l => {
-    text += `${l.success ? '✅' : '❌'} ${l.action}\n`;
-    text += `   📁 ${l.file} | ${l.created_at}\n\n`;
-  });
-
-  await ctx.reply(text || 'אין היסטוריה עדיין', { parse_mode: 'Markdown' });
-});
-
 // הפעלה ידנית
-telegram.command('scan', async (ctx) => {
-  await ctx.reply('🔍 סורק מערכת...');
-  await processAnalysis();
-});
-
 // לוח זמנים
 cron.schedule('0 * * * *', processAnalysis);    // כל שעה
 cron.schedule('0 6 * * *', async () => {         // כל בוקר ב-06:00
