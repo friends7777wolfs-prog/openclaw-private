@@ -1,0 +1,1 @@
+module.exports = { apps: [{ name: 'swarm', script: 'orchestrator.js', cwd: __dirname, autorestart: true, max_memory_restart: '512M', error_file: './logs/swarm-error.log', out_file: './logs/swarm-out.log', merge_logs: true }] };

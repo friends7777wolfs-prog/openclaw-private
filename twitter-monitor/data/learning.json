@@ -55,6 +55,116 @@
       "ts": "2026-03-26T22:42:55.531Z",
       "signalCount": 3,
       "avgConfidence": 39.8
+    },
+    {
+      "ts": "2026-03-26T23:12:55.787Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-26T23:43:01.031Z",
+      "signalCount": 1,
+      "avgConfidence": 18
+    },
+    {
+      "ts": "2026-03-27T00:12:57.781Z",
+      "signalCount": 3,
+      "avgConfidence": 57.333333333333336
+    },
+    {
+      "ts": "2026-03-27T00:42:52.781Z",
+      "signalCount": 1,
+      "avgConfidence": 17.5
+    },
+    {
+      "ts": "2026-03-27T01:12:53.531Z",
+      "signalCount": 0,
+      "avgConfidence": 7.5
+    },
+    {
+      "ts": "2026-03-27T01:42:46.536Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T02:12:46.285Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T02:42:46.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T03:12:46.784Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T03:42:46.036Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T04:12:46.532Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T04:42:46.531Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T05:12:46.531Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T05:42:46.783Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T06:12:46.280Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T06:42:47.284Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T07:12:46.531Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T07:42:46.538Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T08:13:01.034Z",
+      "signalCount": 2,
+      "avgConfidence": 20
+    },
+    {
+      "ts": "2026-03-27T08:42:54.031Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T09:12:53.531Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T09:42:53.781Z",
+      "signalCount": 1,
+      "avgConfidence": 32.5
     }
   ]
 }
