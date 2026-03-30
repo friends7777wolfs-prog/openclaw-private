@@ -1,5 +1,7 @@
 {
-  "winningPatterns": [],
+  "winningPatterns": [
+    "Rising European yields signal EUR weakness, investors defensive positioning"
+  ],
   "losingPatterns": [],
   "thresholds": {
     "minConfidence": 50,
@@ -165,6 +167,551 @@
       "ts": "2026-03-27T09:42:53.781Z",
       "signalCount": 1,
       "avgConfidence": 32.5
+    },
+    {
+      "ts": "2026-03-27T10:12:56.532Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T10:42:55.781Z",
+      "signalCount": 2,
+      "avgConfidence": 26.75
+    },
+    {
+      "ts": "2026-03-27T11:13:08.281Z",
+      "signalCount": 1,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T11:43:01.540Z",
+      "signalCount": 3,
+      "avgConfidence": 26.75
+    },
+    {
+      "ts": "2026-03-27T12:12:59.281Z",
+      "signalCount": 4,
+      "avgConfidence": 54.8
+    },
+    {
+      "ts": "2026-03-27T12:43:04.283Z",
+      "signalCount": 1,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T13:13:01.530Z",
+      "signalCount": 3,
+      "avgConfidence": 12.833333333333334
+    },
+    {
+      "ts": "2026-03-27T13:43:03.033Z",
+      "signalCount": 3,
+      "avgConfidence": 14.4
+    },
+    {
+      "ts": "2026-03-27T14:13:03.036Z",
+      "signalCount": 2,
+      "avgConfidence": 48
+    },
+    {
+      "ts": "2026-03-27T14:42:53.039Z",
+      "signalCount": 3,
+      "avgConfidence": 34.25
+    },
+    {
+      "ts": "2026-03-27T15:13:06.032Z",
+      "signalCount": 1,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T15:43:00.038Z",
+      "signalCount": 1,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T16:12:58.295Z",
+      "signalCount": 1,
+      "avgConfidence": 18
+    },
+    {
+      "ts": "2026-03-27T16:43:02.033Z",
+      "signalCount": 2,
+      "avgConfidence": 11.25
+    },
+    {
+      "ts": "2026-03-27T17:13:00.031Z",
+      "signalCount": 2,
+      "avgConfidence": 1.25
+    },
+    {
+      "ts": "2026-03-27T17:42:58.285Z",
+      "signalCount": 1,
+      "avgConfidence": 12.4
+    },
+    {
+      "ts": "2026-03-27T18:13:01.531Z",
+      "signalCount": 2,
+      "avgConfidence": 19.4
+    },
+    {
+      "ts": "2026-03-27T18:43:00.283Z",
+      "signalCount": 3,
+      "avgConfidence": 9.571428571428571
+    },
+    {
+      "ts": "2026-03-27T19:12:55.282Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T19:43:03.810Z",
+      "signalCount": 3,
+      "avgConfidence": 37.8
+    },
+    {
+      "ts": "2026-03-27T20:12:55.034Z",
+      "signalCount": 1,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T20:42:56.535Z",
+      "signalCount": 1,
+      "avgConfidence": 24
+    },
+    {
+      "ts": "2026-03-27T21:12:56.781Z",
+      "signalCount": 1,
+      "avgConfidence": 29
+    },
+    {
+      "ts": "2026-03-27T21:42:51.284Z",
+      "signalCount": 1,
+      "avgConfidence": 11.666666666666666
+    },
+    {
+      "ts": "2026-03-27T22:12:52.534Z",
+      "signalCount": 2,
+      "avgConfidence": 22.5
+    },
+    {
+      "ts": "2026-03-27T22:42:53.034Z",
+      "signalCount": 0,
+      "avgConfidence": 0
+    },
+    {
+      "ts": "2026-03-27T23:12:43.286Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-27T23:42:42.030Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T00:12:41.535Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T00:42:41.034Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T01:12:45.782Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T01:42:40.076Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T02:12:42.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T02:42:39.284Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T03:12:45.535Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T03:42:40.284Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T04:12:40.033Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T04:42:38.534Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T05:12:39.033Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T05:42:40.539Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T06:12:45.781Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T06:42:41.781Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T07:12:41.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T07:42:43.283Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T08:12:41.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T08:42:45.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T09:12:40.534Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T09:42:39.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T10:12:40.281Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T10:42:41.034Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T11:12:45.532Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T11:42:40.288Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T12:12:40.283Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T12:42:42.783Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T13:12:42.287Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T13:42:42.031Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T14:12:42.283Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T14:42:41.533Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T15:12:40.282Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T15:42:42.783Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T16:12:42.789Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T16:42:44.283Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T17:12:43.783Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T17:42:42.531Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T18:12:44.781Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T18:42:45.785Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T19:12:44.533Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T19:42:41.786Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T20:12:41.782Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T20:42:41.535Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T21:12:43.037Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T21:42:41.037Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T22:12:41.792Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T22:42:43.788Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T23:12:45.790Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-28T23:42:45.535Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T00:12:45.783Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T00:42:45.533Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T01:12:45.783Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T01:42:45.788Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T02:12:46.283Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T02:42:41.040Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T03:12:45.541Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T03:42:45.536Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T04:12:45.786Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T04:42:45.787Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T05:12:41.035Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T05:42:45.539Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T06:12:45.533Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T06:42:38.534Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T07:12:38.284Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T07:42:45.787Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T08:12:38.035Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T08:42:38.036Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T09:12:38.533Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T09:42:38.036Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T10:12:45.532Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T10:42:39.290Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T11:12:45.789Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T11:42:38.035Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T12:12:40.538Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T12:42:45.790Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T13:12:40.535Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T13:42:41.535Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T14:12:42.032Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T14:42:41.036Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T15:12:41.037Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T15:42:43.286Z",
+      "signalCount": 0,
+      "avgConfidence": null
+    },
+    {
+      "ts": "2026-03-29T16:23:32.284Z",
+      "signalCount": 0,
+      "avgConfidence": null
     }
   ]
 }
