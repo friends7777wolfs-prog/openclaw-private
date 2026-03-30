@@ -1,62 +1,151 @@
-# 🦞 OpenClaw — System Context for Claude
+# 🦞 OpenClaw — CLAUDE.md (Living Document)
+> Last consolidated: 2026-03-30 09:56
+> Run `bash memory/bootstrap.sh` at session start.
 
-## מה המערכת
-מערכת אוטומטית לניהול מסחר ודרופשיפינג עם AI.
-שרת: Google Cloud | IP: 34.31.6.152 | User: friends7777wolfs
+---
 
+## 🖥️ Infrastructure
+- **Server**: Google Cloud | IP: 34.31.6.152 | User: friends7777wolfs
+- **Project root**: `~/OpenClawMaster/`
+- **Env file**: `/home/friends7777wolfs/OpenClawMaster/discord-bridge/.env` (ABSOLUTE PATH ONLY)
+- **PM2 binary**: `~/OpenClawMaster/discord-bridge/node_modules/.bin/pm2`
+- **Dashboard**: `http://34.31.6.152` (nginx, port 80)
+- **Runtime**: Node.js 20, CommonJS (`require` not `import`)
 
-## עדכונים 26.03.2026
-- signal_parser.js: נוצר — תומך ב-3 פורמטים (Trade Alert / bold markdown / EliteAlgo)  
-- symbol_map.js: נוסף MGC1/GC1→XAUUSD, MNQ1/NQ1→NAS100, ES1/MES1→SP500
-- bridge.js: מחובר ל-signal_parser, guards על null, stack trace
-- macd_monitor.js: monitorPositions מושבת זמנית (getHistoricalCandles הוסר מ-SDK)
-- diag_server.js (port 3001): סטטוס/לוגים/עסקאות — צריך firewall tag
-- ערוץ 1419103927504212019 הוסר
-## בעיות פתוחות  
-- null reading [1]: בחקירה — stack trace נוסף
-- NAS100/SP500: Trade disabled בחשבון דמו
-- macd_monitor: צריך תחליף ל-getHistoricalCandles
-- diag-server firewall: צריך gcloud auth
+---
 
-## Processes רצים (PM2)
-- discord-bridge (6) — קורא 22 ערוצי דיסקורד → סיגנלים → MT5
-- tg-userbot (2) — קורא 29 ערוצי טלגרם → אותו pipeline
-- tg-bot (4) — בוט טלגרם אינטראקטיבי
-- reporter (1) — דוח יומי 21:00
-- intelligence (7) — AI analyst כל 30 דקות
-- self-improve (8) — סריקה כל שעה
+## ⚙️ PM2 Processes
+| ID | Name | Role | Interval |
+|----|------|------|----------|
+| 1 | reporter | Daily 21:00 + weekly Sun 09:00 | event |
+| 2 | tg-userbot | 29 Telegram channels → signals | live |
+| 4 | tg-bot | Interactive bot (owner: 792897455) | live |
+| 6 | discord-bridge | 22 Discord channels → MT5 | live |
+| 7 | intelligence | AI analysis, Claude Haiku | 60 min |
+| 8 | self-improve | Auto-fix engine | 2 hours |
+| 13 | swarm | 30 agents, 10 groups, 7/10 vote | 10 min |
 
-## עדכונים אחרונים
-- symbol_map.js: NAS100→COMP, SP500→SP500, EURUSD→EURUSD + כל הפורקס
-- asset_detector.js: תוקן — תומך בפורקס, word boundary, מחזיר {symbol, mt5}
-- trader.js: מחובר ל-toMT5Symbol + Streaming connection + live price לפני עסקה
-- MetaAPI: משתמש ב-METAAPI_TOKEN / METAAPI_ACCOUNT_ID
-- חיבור: Streaming בלבד (RPC timeout)
-- עסקת test: נפתחה ונסגרה בהצלחה ב-EURUSD
-- balance: $99,972.38
+---
 
-## בעיות פתוחות
-- tg-bot הפסיק לשלוח הודעות — לא נבדק
-- Shopify — לא מחובר
-- אינדקסים (SP500/NAS100) — Trade disabled בחשבון הדמו הנוכחי
+## 🔀 Signal Pipeline
+```
+Discord/Telegram → keyword pre-filter → local parse (zero cost)
+→ Claude Haiku fallback (short msgs <400 chars, strong keywords, max_tokens 150)
+→ asset_detector.js {symbol, mt5}
+→ risk_manager.js (0.5% default, 4.5% daily limit)
+→ MetaAPI STREAMING → MT5
+→ Telegram alert
+```
 
-## Pipeline
-Discord/Telegram → asset_detector → risk_manager → trader.js → MT5 → Telegram alert
+---
 
-## קבצים חשובים
-- discord-bridge/bridge.js
-- discord-bridge/trader.js
-- discord-bridge/risk_manager.js
-- discord-bridge/asset_detector.js
-- discord-bridge/symbol_map.js ← חדש
-- discord-bridge/macd_monitor.js
-- intelligence/engine.js
-- self-improve/engine.js
+## 📊 Trading — Critical Rules
+- **MetaAPI**: STREAMING CONNECTION ONLY — RPC always times out
+- **Orders**: Remove SL/TP from market order payload → set separately after fill
+- **Price**: Fetch live price BEFORE placing order
+- **MACD**: Auto 25% position reduction + SL→BreakEven on weak momentum
+- **Demo balance**: ~$99,972 | Account: e7cf4bf5...
 
-## פקודות שימושיות
-\`\`\`bash
+## 🗺️ Symbol Map
+| Signal Input | MT5 Symbol |
+|-------------|-----------|
+| NAS100 / MNQ / NQ / USTEC | USTEC |
+| SP500 / ES / US500 | US500 |
+| GOLD / XAU / GC / XAUUSD | XAUUSD (range 1800–5500) |
+| BTC | BTCUSD |
+| GBPJPY, EURUSD, etc. | Direct (symbol_map.js) |
+
+---
+
+## 🤖 AI Cost Policy
+| Task | Model | max_tokens |
+|------|-------|-----------|
+| Signal parsing | Haiku | 150 |
+| Intelligence analysis | Haiku | 1000 |
+| Complex strategy | Sonnet | 1000 |
+| Self-improve decisions | Haiku | 500 |
+
+---
+
+## 🏪 E-Commerce
+- **Shopify stores**: `neu8888tral.myshopify.com` (baby/maternity) | `pelegadolll.myshopify.com` (costumes)
+- **Status**: Shopify API NOT yet wired into OpenClaw — pending
+- **DSers**: Connected to AliExpress
+- **PayPal**: New-account payment hold active
+
+---
+
+## 📱 Accounts & IDs
+- Discord selfbot: `oriki555hila949`
+- Telegram userbot: `Orikn555`
+- Telegram bot owner chat ID: `792897455`
+- Telegram group: `-5068943005`
+- YouTube: COCOHAVANNA channel
+
+---
+
+## 🚧 Known Open Issues (update when resolved)
+- [ ] SP500/NAS100 → "Trade disabled" on demo (expected fix: FTMO live account)
+- [ ] Shopify API not connected to OpenClaw
+- [ ] End-to-end real signal → live trade not confirmed
+- [ ] YouTube OAuth refresh token missing
+- [ ] Swarm agents: 0/30 responses (API credit check needed)
+- [ ] GCP firewall port 3001 not open (diagnostic server)
+- [ ] ~49 Twitter accounts Tier 3–6 not yet followed (rate limit)
+
+---
+
+## ❌ Anti-Patterns — Never Do These
+- Never use RPC with MetaAPI (always Streaming)
+- Never use relative path with dotenv (always absolute)
+- Never include SL/TP in market order payload
+- Never run multiple grammy Bot instances on same token → 409 conflict
+- Never use `import` — always `require` (CommonJS)
+- Never push secrets to GitHub without `.gitignore` cleanup first
+
+---
+
+## 📁 Key Files
+```
+discord-bridge/
+  bridge.js         — main signal processor
+  trader.js         — MT5 execution
+  risk_manager.js   — dynamic weights
+  asset_detector.js — {symbol, mt5} detection
+  symbol_map.js     — full forex mapping
+  macd_monitor.js   — MACD position management
+intelligence/
+  engine.js         — AI analyst
+self-improve/
+  engine.js         — auto-fix + Telegram approval
+memory/
+  primer.md         — active session state
+  git-context.md    — last 5 commits + changed files
+  hindsight.md      — learned patterns
+  kb/trading.md     — trading knowledge base
+  kb/infra.md       — infra knowledge base
+  bootstrap.sh      — RUN AT SESSION START
+  consolidate.sh    — run after major task
+  update-primer.sh  — run after each task
+  add-hindsight.sh  — log new lessons
+```
+
+---
+
+## 🧠 Memory Architecture (5 Layers)
+@memory/primer.md
+@memory/git-context.md
+@memory/hindsight.md
+@memory/kb/trading.md
+@memory/kb/infra.md
+
+---
+
+## 🔧 Useful Commands
+```bash
 cd ~/OpenClawMaster/discord-bridge
 ./node_modules/.bin/pm2 status
-./node_modules/.bin/pm2 logs --lines 30
+./node_modules/.bin/pm2 logs --lines 50
 ./node_modules/.bin/pm2 restart all
-\`\`\`
+env $(cat /home/friends7777wolfs/OpenClawMaster/discord-bridge/.env | grep -v '^#' | xargs) ./node_modules/.bin/pm2 restart all
+```
